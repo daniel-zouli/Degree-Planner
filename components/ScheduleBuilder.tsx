@@ -36,7 +36,7 @@ export default function ScheduleBuilder({
       courses: [],
     };
 
-    onSemestersChange([...semesters, newSemester]);
+    onSemestersChange([newSemester, ...semesters]);
     setShowAddSemester(false);
     onActiveSemesterChange(newSemester.id);
   };
