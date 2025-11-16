@@ -1,2754 +1,2961 @@
 [
   {
-    "id": "honours_and_awards_at_graduation",
-    "name": "Honours and Awards at Graduation",
-    "faculty": "Arts",
+    "id": "master_management_dual_degree_okanagan",
+    "name": "Major in Bachelor + Master of Management Dual Degree",
+    "faculty": "Faculty of Creative and Critical Studies, Faculty of Management, Irving K. Barber Faculty of Arts and Social Sciences, Irving K. Barber Faculty of Science, School of Engineering, School of Health and Exercise Sciences",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering), Bachelor of Arts, Bachelor of Commerce, Bachelor of Fine Arts, Bachelor of Health and Exercise Sciences (Kinesiology), Bachelor of Media Studies, Bachelor of Science, Master of Management",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.5,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "master_management_dual_degree",
+    "name": "Major in Bachelor + Master of Management Dual Degree",
+    "faculty": "Faculty of Arts, Faculty of Forestry, Faculty of Land and Food Systems, Faculty of Science, School of Kinesiology, School of Music, UBC Sauder School of Business",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts, Bachelor of Fine Arts, Bachelor of Kinesiology, Bachelor of Media Studies, Bachelor of Music, Bachelor of Science, Bachelor of Science in Applied Biology, Bachelor of Science in Food, Nutrition, and Health, Bachelor of Science in Global Resource Systems, Bachelor of Science in Wood Products Processing, Master of Management",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.5,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_master_management_dual_degree",
+    "name": "Honours in Bachelor + Master of Management Dual Degree",
+    "faculty": "Faculty of Arts, Faculty of Forestry, Faculty of Land and Food Systems, Faculty of Science, School of Kinesiology, School of Music, UBC Sauder School of Business",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts, Bachelor of Fine Arts, Bachelor of Kinesiology, Bachelor of Media Studies, Bachelor of Music, Bachelor of Science, Bachelor of Science in Applied Biology, Bachelor of Science in Food, Nutrition, and Health, Bachelor of Science in Global Resource Systems, Bachelor of Science in Wood Products Processing, Master of Management",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.5,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "bioeconomy_sciences_technology",
+    "name": "Major in Bioeconomy Sciences and Technology",
+    "faculty": "Faculty of Forestry",
+    "totalCredits": 120,
+    "description": "Bachelor of Science in Natural Resources",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "business_computer_science",
+    "name": "Major in Business and Computer Science",
+    "faculty": "UBC Sauder School of Business / Department of Computer Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Commerce",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "business_and_markets",
+    "name": "Major in Business and Markets",
+    "faculty": "Faculty of Land and Food Systems",
+    "totalCredits": 120,
+    "description": "Bachelor of Science in Food and Resource Economics",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "science_combined_major",
+    "name": "Major in Combined Major in Science",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "statistics_combined_majors",
+    "name": "Major in Combined Majors in Statistics",
+    "faculty": "Faculty of Arts, Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts, Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_statistics_combined_majors",
+    "name": "Honours in Combined Majors in Statistics",
+    "faculty": "Faculty of Arts, Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts, Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
     "id": "commerce",
-    "name": "Minor in Commerce",
-    "faculty": "Arts",
+    "name": "Major in Commerce",
+    "faculty": "UBC Sauder School of Business",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Commerce",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "education",
-    "name": "Minor in Education",
-    "faculty": "Arts",
+    "id": "commerce",
+    "name": "Major in Commerce",
+    "faculty": "UBC Sauder School of Business",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Commerce",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "land_and_food_systems",
-    "name": "Minor in Land and Food Systems",
-    "faculty": "Arts",
+    "id": "data_analytics",
+    "name": "Major in Data Analytics",
+    "faculty": "Faculty of Land and Food Systems",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science in Food and Resource Economics",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "science",
-    "name": "Minor in Science",
-    "faculty": "Arts",
+    "id": "economics_vancouver",
+    "name": "Major in Economics",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "african_studies",
-    "name": "Minor in African Studies",
-    "faculty": "Arts",
+    "id": "honours_economics_vancouver",
+    "name": "Honours in Economics",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "economics_okanagan_ba",
+    "name": "Major in Economics",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "ancient_mediterranean_and_near_eastern_studies",
-    "name": "Major in Ancient Mediterranean and Near Eastern Studies",
-    "faculty": "Arts",
+    "id": "honours_economics_okanagan_ba",
+    "name": "Honours in Economics",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "economics_okanagan_bsc",
+    "name": "Major in Economics",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "honours_economics_okanagan_bsc",
+    "name": "Honours in Economics",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "forest_operations",
+    "name": "Major in Forest Operations",
+    "faculty": "Faculty of Forestry",
+    "totalCredits": 120,
+    "description": "Bachelor of Science in Natural Resources",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "general_studies",
+    "name": "Major in General Studies",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "ancient_mediterranean_and_near_eastern_studies",
-    "name": "Honours in Ancient Mediterranean and Near Eastern Studies",
-    "faculty": "Arts",
+    "id": "interdisciplinary_studies",
+    "name": "Major in Interdisciplinary Studies",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "ancient_mediterranean_and_near_eastern_studies",
-    "name": "Minor in Ancient Mediterranean and Near Eastern Studies",
-    "faculty": "Arts",
+    "id": "international_economics",
+    "name": "Major in International Economics",
+    "faculty": "Vancouver School of Economics",
+    "totalCredits": 120,
+    "description": "Bachelor of International Economics",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "manufacturing_engineering_okanagan",
+    "name": "Major in Manufacturing Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
+    "totalCredits": 120,
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "manufacturing_engineering_vancouver",
+    "name": "Major in Manufacturing Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
+    "totalCredits": 120,
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "mathematics_economics",
+    "name": "Major in Mathematics and Economics",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_mathematics_economics",
+    "name": "Honours in Mathematics and Economics",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "philosophy_politics_okanagan",
+    "name": "Major in Philosophy, Politics, and Economics",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "anthropology",
-    "name": "Major in Anthropology",
-    "faculty": "Arts",
+    "id": "honours_philosophy_politics_okanagan",
+    "name": "Honours in Philosophy, Politics, and Economics",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "wood_products",
+    "name": "Major in Wood Products",
+    "faculty": "Faculty of Forestry",
+    "totalCredits": 120,
+    "description": "Bachelor of Science in Natural Resources",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "archaeology",
+    "name": "Major in Archaeology",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "anthropology",
-    "name": "Honours in Anthropology",
-    "faculty": "Arts",
+    "id": "honours_archaeology",
+    "name": "Honours in Archaeology",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "architecture",
+    "name": "Major in Architecture",
+    "faculty": "School of Architecture and Landscape Architecture",
+    "totalCredits": 120,
+    "description": "Master of Architecture",
+    "requirements": [],
+    "co-op": true,
+    "length": 3.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "atmospheric_science",
+    "name": "Major in Atmospheric Science",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "conservation",
+    "name": "Major in Conservation",
+    "faculty": "Faculty of Forestry",
+    "totalCredits": 120,
+    "description": "Bachelor of Science in Natural Resources",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "earth_environmental_sciences",
+    "name": "Major in Earth and Environmental Sciences",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "honours_earth_environmental_sciences",
+    "name": "Honours in Earth and Environmental Sciences",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "earth_ocean_sciences",
+    "name": "Major in Earth and Ocean Sciences",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_earth_ocean_sciences",
+    "name": "Honours in Earth and Ocean Sciences",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "ecology_evolution_conservation_biology",
+    "name": "Major in Ecology, Evolution, and Conservation Biology",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "honours_ecology_evolution_conservation_biology",
+    "name": "Honours in Ecology, Evolution, and Conservation Biology",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "environmental_chemistry",
+    "name": "Major in Environmental Chemistry",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "environmental_engineering",
+    "name": "Major in Environmental Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
+    "totalCredits": 120,
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.5,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "environmental_engineering_joint_unbc_ubc",
+    "name": "Major in Environmental Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
+    "totalCredits": 120,
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.5,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "environmental_sciences",
+    "name": "Major in Environmental Sciences",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_environmental_sciences",
+    "name": "Honours in Environmental Sciences",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "forest_management",
+    "name": "Major in Forest Management",
+    "faculty": "Faculty of Forestry",
+    "totalCredits": 120,
+    "description": "Bachelor of Science in Natural Resources",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "forest_sciences",
+    "name": "Major in Forest Sciences",
+    "faculty": "Faculty of Forestry",
+    "totalCredits": 120,
+    "description": "Bachelor of Science in Natural Resources",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_forest_sciences",
+    "name": "Honours in Forest Sciences",
+    "faculty": "Faculty of Forestry",
+    "totalCredits": 132,
+    "description": "Bachelor of Science in Natural Resources",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "freshwater_science",
+    "name": "Major in Freshwater Science",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "honours_freshwater_science",
+    "name": "Honours in Freshwater Science",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "general_science",
+    "name": "Major in General Science",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "geographical_sciences",
+    "name": "Major in Geographical Sciences",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "geography",
+    "name": "Major in Geography",
+    "faculty": "Irving K. Barber Faculty of Science",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "anthropology",
-    "name": "Minor in Anthropology",
-    "faculty": "Arts",
+    "id": "geology",
+    "name": "Major in Geology",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "anthropological_archaeology",
-    "name": "Minor in Anthropological Archaeology",
-    "faculty": "Arts",
+    "id": "honours_geology",
+    "name": "Honours in Geology",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "geophysics",
+    "name": "Major in Geophysics",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "art_history",
-    "name": "Major in Art History",
-    "faculty": "Arts",
+    "id": "honours_geophysics",
+    "name": "Honours in Geophysics",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "global_resource_systems",
+    "name": "Major in Global Resource Systems",
+    "faculty": "Faculty of Land and Food Systems",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science in Global Resource Systems",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "art_history",
-    "name": "Honours in Art History",
-    "faculty": "Arts",
+    "id": "indigenous_land_stewardship",
+    "name": "Major in Indigenous Land Stewardship",
+    "faculty": "Faculty of Forestry",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Indigenous Land Stewardship",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "art_history",
-    "name": "Minor in Art History",
-    "faculty": "Arts",
+    "id": "integrated_sciences",
+    "name": "Major in Integrated Sciences",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "major_and_minor_in_visual_art",
-    "name": "Major and Minor in Visual Art",
-    "faculty": "Arts",
+    "id": "honours_integrated_sciences",
+    "name": "Honours in Integrated Sciences",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "oceanography",
+    "name": "Major in Oceanography",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_canadian_and_asian_migration_studies",
-    "name": "Minor in Asian Canadian and Asian Migration Studies",
-    "faculty": "Arts",
+    "id": "honours_oceanography",
+    "name": "Honours in Oceanography",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "sustainability",
+    "name": "Major in Sustainability",
+    "faculty": "Faculty of Creative and Critical Studies, Irving K. Barber Faculty of Arts and Social Sciences, Irving K. Barber Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Sustainability",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "asian_area_studies",
-    "name": "Major in Asian Area Studies",
-    "faculty": "Arts",
+    "id": "sustainable_agriculture_environment",
+    "name": "Major in Sustainable Agriculture and Environment",
+    "faculty": "Faculty of Land and Food Systems",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science in Applied Biology",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_language_and_culture",
-    "name": "Major in Asian Language and Culture",
-    "faculty": "Arts",
+    "id": "honours_sustainable_agriculture_environment",
+    "name": "Honours in Sustainable Agriculture and Environment",
+    "faculty": "Faculty of Land and Food Systems",
+    "totalCredits": 132,
+    "description": "Bachelor of Science in Applied Biology",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "urban_forestry",
+    "name": "Major in Urban Forestry",
+    "faculty": "Faculty of Forestry",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Urban Forestry",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_language_and_culture_area_of_focus_china",
-    "name": "Major in Asian Language and Culture - Area of Focus: China",
-    "faculty": "Arts",
+    "id": "education_elementary_middle_years",
+    "name": "Major in Education: Elementary and Middle Years",
+    "faculty": "Faculty of Education",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Education",
+    "requirements": [],
+    "co-op": true,
+    "length": 0.917,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_language_and_culture_area_of_focus_chinese_literature",
-    "name": "Major in Asian Language and Culture - Area of Focus: Chinese Literature",
-    "faculty": "Arts",
+    "id": "education_international_baccalaureate",
+    "name": "Major in Education: International Baccalaureate",
+    "faculty": "Faculty of Education",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Education",
+    "requirements": [],
+    "co-op": true,
+    "length": 0.917,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_language_and_culture_area_of_focus_japan",
-    "name": "Major in Asian Language and Culture - Area of Focus: Japan",
-    "faculty": "Arts",
+    "id": "education_secondary",
+    "name": "Major in Education: Secondary",
+    "faculty": "Faculty of Education",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Education",
+    "requirements": [],
+    "co-op": true,
+    "length": 0.917,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_language_and_culture_area_of_focus_korea",
-    "name": "Major in Asian Language and Culture - Area of Focus: Korea",
-    "faculty": "Arts",
+    "id": "education_teaching_adolescents",
+    "name": "Major in Education: Teaching Adolescents",
+    "faculty": "Okanagan School of Education",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Education",
+    "requirements": [],
+    "co-op": false,
+    "length": 1.333,
+    "campus": "Okanagan"
   },
   {
-    "id": "asian_language_and_culture_area_of_focus_south_asian_languages",
-    "name": "Major in Asian Language and Culture - Area of Focus: South Asian Languages",
-    "faculty": "Arts",
+    "id": "education_teaching_children",
+    "name": "Major in Education: Teaching Children",
+    "faculty": "Okanagan School of Education",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Education",
+    "requirements": [],
+    "co-op": false,
+    "length": 1.333,
+    "campus": "Okanagan"
   },
   {
-    "id": "asian_area_studies",
-    "name": "Minor in Asian Area Studies",
-    "faculty": "Arts",
+    "id": "architecture",
+    "name": "Major in Architecture",
+    "faculty": "School of Architecture and Landscape Architecture",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Master of Architecture",
+    "requirements": [],
+    "co-op": true,
+    "length": 3.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_language_and_culture",
-    "name": "Minor in Asian Language and Culture",
-    "faculty": "Arts",
+    "id": "biomedical_engineering",
+    "name": "Major in Biomedical Engineering",
+    "faculty": "Faculty of Applied Science (Engineering), Faculty of Medicine",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_area_studies",
-    "name": "Honours in Asian Area Studies",
-    "faculty": "Arts",
+    "id": "chemical_engineering",
+    "name": "Major in Chemical Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_language_and_culture_area_of_focus_china",
-    "name": "Honours in Asian Language and Culture - Area of Focus: China",
-    "faculty": "Arts",
+    "id": "chemical_biological_engineering",
+    "name": "Major in Chemical and Biological Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_language_and_culture_area_of_focus_chinese_literature",
-    "name": "Honours in Asian Language and Culture - Area of Focus: Chinese Literature",
-    "faculty": "Arts",
+    "id": "civil_engineering_okanagan",
+    "name": "Major in Civil Engineering",
+    "faculty": "School of Engineering",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "asian_language_and_culture_area_of_focus_japan",
-    "name": "Honours in Asian Language and Culture - Area of Focus: Japan",
-    "faculty": "Arts",
+    "id": "civil_engineering_vancouver",
+    "name": "Major in Civil Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_language_and_culture_area_of_focus_korea",
-    "name": "Honours in Asian Language and Culture - Area of Focus: Korea",
-    "faculty": "Arts",
+    "id": "cognitive_systems_bsc",
+    "name": "Major in Cognitive Systems",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "asian_language_and_culture_area_of_focus_south_asian_languages",
-    "name": "Honours in Asian Language and Culture - Area of Focus: South Asian Languages",
-    "faculty": "Arts",
+    "id": "computer_engineering",
+    "name": "Major in Computer Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "canadian_studies",
-    "name": "Major in Canadian Studies",
-    "faculty": "Arts",
+    "id": "computer_engineering",
+    "name": "Major in Computer Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "canadian_studies",
-    "name": "Minor in Canadian Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "major_honours_and_minor_in_german_studies",
-    "name": "Major, Honours, and Minor in German Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "russian",
-    "name": "Minor in Russian",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "nordic_studies",
-    "name": "Minor in Nordic Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "cinema_studies",
-    "name": "Major in Cinema Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "cinema_studies",
-    "name": "Minor in Cinema Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "cinema_studies",
-    "name": "Honours in Cinema Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "computer_science",
+    "id": "computer_science_okanagan_ba",
     "name": "Major in Computer Science",
-    "faculty": "Arts",
+    "faculty": "Irving K. Barber Faculty of Science",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "computer_science",
+    "id": "computer_science_vancouver_ba",
+    "name": "Major in Computer Science",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "computer_science_okanagan_bsc",
+    "name": "Major in Computer Science",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "honours_computer_science_okanagan_bsc",
     "name": "Honours in Computer Science",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "computer_science",
-    "name": "Minor in Computer Science",
-    "faculty": "Arts",
+    "id": "computer_science_vancouver_bsc",
+    "name": "Major in Computer Science",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "critical_studies_in_sexuality",
-    "name": "Minor in Critical Studies in Sexuality",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_computer_science_vancouver_bsc",
+    "name": "Honours in Computer Science",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "combined_major_program",
-    "name": "Combined Major Program",
-    "faculty": "Arts",
+    "id": "data_science",
+    "name": "Major in Data Science",
+    "faculty": "Irving K. Barber Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "english_literature_emphasis",
-    "name": "Major in English: Literature Emphasis",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_data_science",
+    "name": "Honours in Data Science",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "english_language_emphasis",
-    "name": "Major in English: Language Emphasis",
-    "faculty": "Arts",
+    "id": "electrical_engineering_okanagan",
+    "name": "Major in Electrical Engineering",
+    "faculty": "School of Engineering",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "english_language_and_literature_emphasis",
-    "name": "Major in English: Language and Literature Emphasis",
-    "faculty": "Arts",
+    "id": "electrical_engineering_vancouver",
+    "name": "Major in Electrical Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "english_literature_emphasis",
-    "name": "Honours in English: Literature Emphasis",
-    "faculty": "Arts",
+    "id": "engineering_physics",
+    "name": "Major in Engineering Physics",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 5.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "english_language_and_literature_emphasis",
-    "name": "Honours in English: Language and Literature Emphasis",
-    "faculty": "Arts",
+    "id": "geological_engineering",
+    "name": "Major in Geological Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "english_literature_emphasis",
-    "name": "Minor in English: Literature Emphasis",
-    "faculty": "Arts",
+    "id": "integrated_computer_science",
+    "name": "Major in Integrated Computer Science",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Computer Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 1.667,
+    "campus": "Vancouver"
   },
   {
-    "id": "english_language_emphasis",
-    "name": "Minor in English: Language Emphasis",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_integrated_computer_science",
+    "name": "Honours in Integrated Computer Science",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Computer Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 1.667,
+    "campus": "Vancouver"
   },
   {
-    "id": "english_teacher_education_preparation",
-    "name": "Minor in English: Teacher Education Preparation",
-    "faculty": "Arts",
+    "id": "integrated_engineering",
+    "name": "Major in Integrated Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "environment_and_society",
-    "name": "Minor in Environment and Society",
-    "faculty": "Arts",
+    "id": "materials_engineering",
+    "name": "Major in Materials Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "environment_and_sustainability",
-    "name": "Major in Environment and Sustainability",
-    "faculty": "Arts",
+    "id": "mechanical_engineering_okanagan",
+    "name": "Major in Mechanical Engineering",
+    "faculty": "School of Engineering",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "environment_and_sustainability",
-    "name": "Minor in Environment and Sustainability",
-    "faculty": "Arts",
+    "id": "mechanical_engineering_vancouver",
+    "name": "Major in Mechanical Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "family_studies",
-    "name": "Minor in Family Studies",
-    "faculty": "Arts",
+    "id": "mining_engineering",
+    "name": "Major in Mining Engineering",
+    "faculty": "Faculty of Applied Science (Engineering)",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Applied Science (Engineering)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "first_nations_and_endangered_languages",
-    "name": "Major in First Nations and Endangered Languages",
-    "faculty": "Arts",
+    "id": "vantage_one_science",
+    "name": "Major in Vantage One: Science",
+    "faculty": "UBC Vantage College",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": null,
+    "requirements": [],
+    "co-op": false,
+    "length": 0.917,
+    "campus": "Vancouver"
   },
   {
-    "id": "first_nations_and_endangered_languages",
-    "name": "Minor in First Nations and Endangered Languages",
-    "faculty": "Arts",
+    "id": "applied_animal_biology",
+    "name": "Major in Applied Animal Biology",
+    "faculty": "Faculty of Land and Food Systems",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science in Applied Biology",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "first_nations_and_indigenous_studies",
-    "name": "Major in First Nations and Indigenous Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_applied_animal_biology",
+    "name": "Honours in Applied Animal Biology",
+    "faculty": "Faculty of Land and Food Systems",
+    "totalCredits": 132,
+    "description": "Bachelor of Science in Applied Biology",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "first_nations_and_indigenous_studies",
-    "name": "Minor in First Nations and Indigenous Studies",
-    "faculty": "Arts",
+    "id": "biochemistry",
+    "name": "Major in Biochemistry",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "french_language_literatures_and_cultures",
-    "name": "Major in French Language, Literatures and Cultures",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_biochemistry",
+    "name": "Honours in Biochemistry",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "french_language_literatures_and_cultures",
-    "name": "Honours in French Language, Literatures and Cultures",
-    "faculty": "Arts",
+    "id": "biochemistry_molecular_biology",
+    "name": "Major in Biochemistry and Molecular Biology",
+    "faculty": "Irving K. Barber Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "french_language_literatures_and_cultures",
-    "name": "Minor in French Language, Literatures and Cultures",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_biochemistry_molecular_biology",
+    "name": "Honours in Biochemistry and Molecular Biology",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "french_language",
-    "name": "Minor in French Language",
-    "faculty": "Arts",
+    "id": "biology_okanagan",
+    "name": "Major in Biology",
+    "faculty": "Irving K. Barber Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "gender_race_sexuality_and_social_justice",
-    "name": "Major in Gender, Race, Sexuality and Social Justice",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_biology_okanagan",
+    "name": "Honours in Biology",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "gender_race_sexuality_and_social_justice",
-    "name": "Minor in Gender, Race, Sexuality and Social Justice",
-    "faculty": "Arts",
+    "id": "biology_vancouver",
+    "name": "Major in Biology",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "geographic_information_science_and_geographical_computation_gis_gc",
-    "name": "Minor in Geographic Information Science and Geographical Computation (GIS&GC)",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_biology_vancouver",
+    "name": "Honours in Biology",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "environment_and_sustainability",
-    "name": "Major in Environment and Sustainability",
-    "faculty": "Arts",
+    "id": "biophysics",
+    "name": "Major in Biophysics",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "human_geography",
-    "name": "Major in Human Geography",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_biophysics",
+    "name": "Honours in Biophysics",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "human_geography",
-    "name": "Honours in Human Geography",
-    "faculty": "Arts",
+    "id": "biotechnology",
+    "name": "Major in Biotechnology",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 5.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "human_geography",
-    "name": "Minor in Human Geography",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_biotechnology",
+    "name": "Honours in Biotechnology",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 5.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "environment_and_sustainability",
-    "name": "Minor in Environment and Sustainability",
-    "faculty": "Arts",
+    "id": "dental_hygiene",
+    "name": "Major in Dental Hygiene",
+    "faculty": "Faculty of Dentistry",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Dental Science",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "geographic_information_science_and_geographical_computation_gis_gc",
-    "name": "Minor in Geographic Information Science and Geographical Computation (GIS&GC)",
-    "faculty": "Arts",
+    "id": "dentistry",
+    "name": "Major in Dentistry",
+    "faculty": "Faculty of Dentistry",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Doctor of Dental Medicine",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "urban_studies",
-    "name": "Minor in Urban Studies",
-    "faculty": "Arts",
+    "id": "dietetics",
+    "name": "Major in Dietetics",
+    "faculty": "Faculty of Land and Food Systems",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science in Food, Nutrition, and Health",
+    "requirements": [],
+    "co-op": false,
+    "length": 5.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "german_studies",
-    "name": "Major in German Studies",
-    "faculty": "Arts",
+    "id": "food_science",
+    "name": "Major in Food Science",
+    "faculty": "Faculty of Land and Food Systems",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science in Food, Nutrition, and Health",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "german_studies",
-    "name": "Honours in German Studies",
-    "faculty": "Arts",
+    "id": "food_nutritional_sciences",
+    "name": "Major in Food and Nutritional Sciences",
+    "faculty": "Faculty of Land and Food Systems",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science in Food, Nutrition, and Health",
+    "requirements": [],
+    "co-op": true,
+    "length": 5.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "german_studies",
-    "name": "Minor in German Studies",
-    "faculty": "Arts",
+    "id": "health_and_exercise_sciences_kinesiology",
+    "name": "Major in Health and Exercise Sciences",
+    "faculty": "School of Health and Exercise Sciences",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Health and Exercise Sciences (Kinesiology)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "german_studies_anglophone",
-    "name": "Minor in German Studies (Anglophone)",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_health_and_exercise_sciences_kinesiology",
+    "name": "Honours in Health and Exercise Sciences",
+    "faculty": "School of Health and Exercise Sciences",
+    "totalCredits": 132,
+    "description": "Bachelor of Health and Exercise Sciences (Kinesiology)",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "health_and_society",
-    "name": "Minor in Health and Society",
-    "faculty": "Arts",
+    "id": "kinesiology_multidisciplinary_science",
+    "name": "Major in Kinesiology: Multidisciplinary Science",
+    "faculty": "School of Kinesiology",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Kinesiology",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "history",
-    "name": "Major in History",
-    "faculty": "Arts",
+    "id": "kinesiology_neuromechanical_physiological_sciences",
+    "name": "Major in Kinesiology: Neuromechanical and Physiological Sciences",
+    "faculty": "School of Kinesiology",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Kinesiology",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "history",
-    "name": "Minor in History",
-    "faculty": "Arts",
+    "id": "kinesiology_social_behavioural_sciences",
+    "name": "Major in Kinesiology: Social and Behavioural Sciences",
+    "faculty": "School of Kinesiology",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Kinesiology",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "history_and_philosophy_of_science",
-    "name": "Major in History and Philosophy of Science",
-    "faculty": "Arts",
+    "id": "medical_laboratory_science",
+    "name": "Major in Medical Laboratory Science",
+    "faculty": "Faculty of Medicine",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Medical Laboratory Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 2.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "history",
-    "name": "Honours in History",
-    "faculty": "Arts",
+    "id": "medicine",
+    "name": "Major in Medicine",
+    "faculty": "Faculty of Medicine",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Doctor of Medicine",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": null
   },
   {
-    "id": "history_with_international_relations",
-    "name": "Honours in History with International Relations",
-    "faculty": "Arts",
+    "id": "medicine",
+    "name": "Major in Medicine",
+    "faculty": "Faculty of Medicine",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Doctor of Medicine",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": null
   },
   {
-    "id": "human_geography",
-    "name": "Major in Human Geography",
-    "faculty": "Arts",
+    "id": "microbiology",
+    "name": "Major in Microbiology",
+    "faculty": "Irving K. Barber Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "human_geography",
-    "name": "Honours in Human Geography",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_microbiology",
+    "name": "Honours in Microbiology",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "human_geography",
-    "name": "Minor in Human Geography",
-    "faculty": "Arts",
+    "id": "microbiology_immunology",
+    "name": "Major in Microbiology and Immunology",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "informatics",
-    "name": "Minor in Informatics",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_microbiology_immunology",
+    "name": "Honours in Microbiology and Immunology",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "international_relations",
-    "name": "Major in International Relations",
-    "faculty": "Arts",
+    "id": "midwifery",
+    "name": "Major in Midwifery",
+    "faculty": "Faculty of Medicine",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Midwifery",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "international_relations",
-    "name": "Minor in International Relations",
-    "faculty": "Arts",
+    "id": "neuroscience",
+    "name": "Major in Neuroscience",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "international_relations",
-    "name": "Honours in International Relations",
-    "faculty": "Arts",
+    "id": "nursing_okanagan",
+    "name": "Major in Nursing",
+    "faculty": "School of Nursing",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science in Nursing",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "italian",
-    "name": "Major in Italian",
-    "faculty": "Arts",
+    "id": "nursing_vancouver",
+    "name": "Major in Nursing",
+    "faculty": "School of Nursing",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science in Nursing",
+    "requirements": [],
+    "co-op": false,
+    "length": 1.667,
+    "campus": "Vancouver"
   },
   {
-    "id": "italian",
-    "name": "Minor in Italian",
-    "faculty": "Arts",
+    "id": "nutritional_sciences",
+    "name": "Major in Nutritional Sciences",
+    "faculty": "Faculty of Land and Food Systems",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science in Food, Nutrition, and Health",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "jewish_studies",
-    "name": "Minor in Jewish Studies",
-    "faculty": "Arts",
+    "id": "pharmaceutical_sciences",
+    "name": "Major in Pharmaceutical Sciences",
+    "faculty": "Faculty of Pharmaceutical Sciences",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Pharmaceutical Sciences",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "journalism_and_social_change",
-    "name": "Minor in Journalism and Social Change",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_pharmaceutical_sciences",
+    "name": "Honours in Pharmaceutical Sciences",
+    "faculty": "Faculty of Pharmaceutical Sciences",
+    "totalCredits": 132,
+    "description": "Bachelor of Pharmaceutical Sciences",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "latin_american_studies",
-    "name": "Major in Latin American Studies",
-    "faculty": "Arts",
+    "id": "pharmacology",
+    "name": "Major in Pharmacology",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "latin_american_studies",
-    "name": "Minor in Latin American Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_pharmacology",
+    "name": "Honours in Pharmacology",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "law_and_society",
-    "name": "Minor in Law and Society",
-    "faculty": "Arts",
+    "id": "pharmacy",
+    "name": "Major in Pharmacy",
+    "faculty": "Faculty of Pharmaceutical Sciences",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Doctor of Pharmacy",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "linguistics",
-    "name": "Major in Linguistics",
-    "faculty": "Arts",
+    "id": "psychology_okanagan_ba",
+    "name": "Major in Psychology",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "linguistics",
-    "name": "Honours in Linguistics",
-    "faculty": "Arts",
-    "totalCredits": 120,
+    "id": "honours_psychology_okanagan_ba",
+    "name": "Honours in Psychology",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 132,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "linguistics",
-    "name": "Minor in Linguistics",
-    "faculty": "Arts",
+    "id": "psychology_okanagan_bsc",
+    "name": "Major in Psychology",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "cognitive_systems_language_b_a",
-    "name": "Major in Cognitive Systems: Language (B.A.)",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_psychology_okanagan_bsc",
+    "name": "Honours in Psychology",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
     "id": "speech_sciences",
     "name": "Major in Speech Sciences",
-    "faculty": "Arts",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "speech_sciences",
-    "name": "Honours in Speech Sciences",
-    "faculty": "Arts",
+    "id": "zoology",
+    "name": "Major in Zoology",
+    "faculty": "Irving K. Barber Faculty of Science",
     "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "speech_sciences",
-    "name": "Minor in Speech Sciences",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "id": "honours_zoology",
+    "name": "Honours in Zoology",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "mathematics",
-    "name": "Major in Mathematics",
-    "faculty": "Arts",
+    "id": "ancient_mediterranean_near_eastern_studies",
+    "name": "Major in Ancient Mediterranean and Near Eastern Studies",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "combined_major_in_economics_and_mathematics",
-    "name": "Combined Major in Economics and Mathematics",
-    "faculty": "Arts",
-    "totalCredits": 120,
+    "id": "honours_ancient_mediterranean_near_eastern_studies",
+    "name": "Honours in Ancient Mediterranean and Near Eastern Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "mathematics",
-    "name": "Honours in Mathematics",
-    "faculty": "Arts",
+    "id": "asian_area_studies",
+    "name": "Major in Asian Area Studies",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "combined_honours_in_mathematics_and_another_subject",
-    "name": "Combined Honours in Mathematics and Another Subject",
-    "faculty": "Arts",
-    "totalCredits": 120,
+    "id": "honours_asian_area_studies",
+    "name": "Honours in Asian Area Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "combined_honours_in_mathematics_and_philosophy",
-    "name": "Combined Honours in Mathematics and Philosophy",
-    "faculty": "Arts",
+    "id": "canadian_studies",
+    "name": "Major in Canadian Studies",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_canadian_studies",
+    "name": "Honours in Canadian Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "first_nations_indigenous_studies",
+    "name": "Major in First Nations and Indigenous Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "history_okanagan",
+    "name": "Major in History",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "honours_history_okanagan",
+    "name": "Honours in History",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "history_vancouver",
+    "name": "Major in History",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_history_vancouver",
+    "name": "Honours in History",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "indigenous_studies",
+    "name": "Major in Indigenous Studies",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "international_relations_okanagan",
+    "name": "Major in International Relations",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "international_relations_vancouver",
+    "name": "Major in International Relations",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_international_relations_vancouver",
+    "name": "Honours in International Relations",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "latin_american_studies_vancouver",
+    "name": "Major in Latin American Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "law",
+    "name": "Major in Law",
+    "faculty": "Peter A. Allard School of Law",
+    "totalCredits": 120,
+    "description": "Juris Doctor",
+    "requirements": [],
+    "co-op": false,
+    "length": 3.0,
+    "campus": "Vancouver"
   },
   {
     "id": "medieval_studies",
     "name": "Major in Medieval Studies",
-    "faculty": "Arts",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "medieval_studies",
-    "name": "Minor in Medieval Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "middle_east_studies",
-    "name": "Minor in Middle East Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
     "id": "modern_european_studies",
     "name": "Major in Modern European Studies",
-    "faculty": "Arts",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "music",
-    "name": "Major in Music",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "music",
-    "name": "Honours in Music",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "music",
-    "name": "Minor in Music",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "applied_music_technology",
-    "name": "Minor in Applied Music Technology",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "nordic_studies",
-    "name": "Minor in Nordic Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "philosophy",
-    "name": "Major in Philosophy",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_in_philosophy_and_economics",
-    "name": "Combined Major in Philosophy and Economics",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_in_philosophy_and_political_science",
-    "name": "Combined Major in Philosophy and Political Science",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "philosophy",
-    "name": "Honours in Philosophy",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_in_mathematics_and_philosophy",
-    "name": "Combined Honours in Mathematics and Philosophy",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "philosophy",
-    "name": "Minor in Philosophy",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "history_and_philosophy_of_science",
-    "name": "Major in History and Philosophy of Science",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "cognitive_systems_mind_language_and_computation",
-    "name": "Major in Cognitive Systems: Mind, Language, and Computation",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "political_science",
+    "id": "political_science_okanagan",
     "name": "Major in Political Science",
-    "faculty": "Arts",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "political_science",
+    "id": "political_science_vancouver",
     "name": "Major in Political Science",
-    "faculty": "Arts",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "political_science_area_of_focus_politics_policy_and_administration",
-    "name": "Major in Political Science - Area of Focus: Politics, Policy and Administration",
-    "faculty": "Arts",
-    "totalCredits": 120,
+    "id": "honours_political_science_vancouver",
+    "name": "Honours in Political Science",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "combined_major_in_political_science_and_economics",
-    "name": "Combined Major in Political Science and Economics",
-    "faculty": "Arts",
+    "id": "religion",
+    "name": "Major in Religion",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_in_political_science_and_philosophy",
-    "name": "Combined Major in Political Science and Philosophy",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "political_science_with_international_relations",
-    "name": "Honours in Political Science with International Relations",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "political_science",
-    "name": "Minor in Political Science",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "the_study_of_religion",
-    "name": "Major in the Study of Religion",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "the_study_of_religion",
-    "name": "Honours in the Study of Religion",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "the_study_of_religion",
-    "name": "Minor in the Study of Religion",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "psychology",
-    "name": "Major in Psychology",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "psychology",
-    "name": "Honours in Psychology",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "psychology_b_a",
-    "name": "Minor in Psychology (B.A.)",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "cognitive_systems_cognition_and_the_brain",
-    "name": "Major in Cognitive Systems: Cognition and the Brain",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "romance_studies",
-    "name": "Major in Romance Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "romance_studies",
-    "name": "Honours in Romance Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "romance_studies",
-    "name": "Minor in Romance Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "slavic_and_eastern_european_studies",
-    "name": "Minor in Slavic and Eastern European Studies",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "sociology",
-    "name": "Major in Sociology",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "sociology",
-    "name": "Honours in Sociology",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "sociology",
-    "name": "Minor in Sociology",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "spanish",
-    "name": "Major in Spanish",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "spanish",
-    "name": "Minor in Spanish",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "theatre",
-    "name": "Major in Theatre",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "theatre",
-    "name": "Honours in Theatre",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "theatre",
-    "name": "Minor in Theatre",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
     "id": "united_states_studies",
     "name": "Major in United States Studies",
-    "faculty": "Arts",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "united_states_studies",
-    "name": "Minor in United States Studies",
-    "faculty": "Arts",
+    "id": "cognitive_systems_ba",
+    "name": "Major in Cognitive Systems",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "urban_studies",
-    "name": "Major in Urban Studies",
-    "faculty": "Arts",
+    "id": "english_okanagan",
+    "name": "Major in English",
+    "faculty": "Faculty of Creative and Critical Studies",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "urban_studies",
-    "name": "Minor in Urban Studies",
-    "faculty": "Arts",
+    "id": "honours_english_okanagan",
+    "name": "Honours in English",
+    "faculty": "Faculty of Creative and Critical Studies",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "english_vancouver",
+    "name": "Major in English",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "visual_art",
-    "name": "Major in Visual Art",
-    "faculty": "Arts",
+    "id": "honours_english_vancouver",
+    "name": "Honours in English",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "first_nations_endangered_languages",
+    "name": "Major in First Nations and Endangered Languages",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "visual_art",
-    "name": "Minor in Visual Art",
-    "faculty": "Arts",
+    "id": "french_okanagan",
+    "name": "Major in French",
+    "faculty": "Faculty of Creative and Critical Studies",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "writing_and_communication",
-    "name": "Minor in Writing and Communication",
-    "faculty": "Arts",
+    "id": "french_vancouver",
+    "name": "Major in French",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "honours_and_awards_at_graduation",
-    "name": "Honours and Awards at Graduation",
-    "faculty": "Arts",
+    "id": "honours_french_vancouver",
+    "name": "Honours in French",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "german",
+    "name": "Major in German",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "commerce",
-    "name": "Minor in Commerce",
-    "faculty": "Arts",
+    "id": "honours_german",
+    "name": "Honours in German",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "languages",
+    "name": "Major in Languages",
+    "faculty": "Faculty of Creative and Critical Studies",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "education",
-    "name": "Minor in Education",
-    "faculty": "Arts",
+    "id": "linguistics",
+    "name": "Major in Linguistics",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "land_and_food_systems",
-    "name": "Minor in Land and Food Systems",
-    "faculty": "Arts",
+    "id": "honours_linguistics",
+    "name": "Honours in Linguistics",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "romance_studies",
+    "name": "Major in Romance Studies",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "science",
-    "name": "Minor in Science",
-    "faculty": "Arts",
+    "id": "honours_romance_studies",
+    "name": "Honours in Romance Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "nsyilxcn_language_fluency",
+    "name": "Major in Nsyilxcn Language Fluency",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 120,
+    "description": "Bachelor of Nsyilxcn Language Fluency",
+    "requirements": [],
+    "co-op": false,
+    "length": 2.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "astronomy",
+    "name": "Major in Astronomy",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_astronomy",
+    "name": "Honours in Astronomy",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "chemistry_okanagan",
+    "name": "Major in Chemistry",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "honours_chemistry_okanagan",
+    "name": "Honours in Chemistry",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "chemistry_vancouver",
+    "name": "Major in Chemistry",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_chemistry_vancouver",
+    "name": "Honours in Chemistry",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "mathematical_sciences_vancouver",
+    "name": "Major in Mathematical Sciences",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "mathematics_okanagan_ba",
+    "name": "Major in Mathematics",
+    "faculty": "Irving K. Barber Faculty of Science",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "creative_writing",
+    "id": "mathematics_vancouver_ba",
+    "name": "Major in Mathematics",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_mathematics_vancouver_ba",
+    "name": "Honours in Mathematics",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "mathematics_okanagan_bsc",
+    "name": "Major in Mathematics",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "honours_mathematics_okanagan_bsc",
+    "name": "Honours in Mathematics",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "mathematics_vancouver_bsc",
+    "name": "Major in Mathematics",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_mathematics_vancouver_bsc",
+    "name": "Honours in Mathematics",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "physics_okanagan",
+    "name": "Major in Physics",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "honours_physics_okanagan",
+    "name": "Honours in Physics",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "physics_vancouver",
+    "name": "Major in Physics",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_physics_vancouver",
+    "name": "Honours in Physics",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "statistics_okanagan",
+    "name": "Major in Statistics",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "honours_statistics_okanagan",
+    "name": "Honours in Statistics",
+    "faculty": "Irving K. Barber Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "statistics_vancouver",
+    "name": "Major in Statistics",
+    "faculty": "Faculty of Science",
+    "totalCredits": 120,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_statistics_vancouver",
+    "name": "Honours in Statistics",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
+    "description": "Bachelor of Science",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "art_history",
+    "name": "Major in Art History",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_art_history",
+    "name": "Honours in Art History",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "art_history_visual_culture",
+    "name": "Major in Art History and Visual Culture",
+    "faculty": "Faculty of Creative and Critical Studies",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "cinema_studies",
+    "name": "Major in Cinema Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_cinema_studies",
+    "name": "Honours in Cinema Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "creative_writing_okanagan",
     "name": "Major in Creative Writing",
-    "faculty": "Arts",
+    "faculty": "Faculty of Creative and Critical Studies",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "creative_writing",
-    "name": "Minor in Creative Writing",
-    "faculty": "Arts",
+    "id": "creative_writing_vancouver",
+    "name": "Major in Creative Writing",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Fine Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 2.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "film_production",
+    "name": "Major in Film Production",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Fine Arts",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "journalism",
+    "name": "Major in Journalism",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Master of Journalism",
+    "requirements": [],
+    "co-op": true,
+    "length": 1.667,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "media_studies",
+    "name": "Major in Media Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Media Studies",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "media_studies",
+    "name": "Major in Media Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Media Studies",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "music",
+    "name": "Major in Music",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "honours_and_awards_at_graduation",
-    "name": "Honours and Awards at Graduation",
-    "faculty": "Arts",
-    "totalCredits": 120,
+    "id": "honours_music",
+    "name": "Honours in Music",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
     "description": "Bachelor of Arts",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "the_faculty_of_arts",
-    "name": "Minor in the Faculty of Arts",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "commerce",
-    "name": "Minor in Commerce",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "education",
-    "name": "Minor in Education",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "land_and_food_systems",
-    "name": "Minor in Land and Food Systems",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "science",
-    "name": "Minor in Science",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "major_or_honours_programs",
-    "name": "Major or Honours Programs",
-    "faculty": "Arts",
-    "totalCredits": 120,
-    "description": "Bachelor of Arts",
-    "requirements": []
-  },
-  {
-    "id": "minors",
-    "name": "Minors",
-    "faculty": "Commerce and Business Administration",
-    "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
-  },
-  {
-    "id": "arts",
-    "name": "Minor in Arts",
-    "faculty": "Commerce and Business Administration",
-    "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
-  },
-  {
-    "id": "commerce",
-    "name": "Minor in Commerce",
-    "faculty": "Commerce and Business Administration",
-    "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
-  },
-  {
-    "id": "science",
-    "name": "Minor in Science",
-    "faculty": "Commerce and Business Administration",
-    "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
-  },
-  {
-    "id": "major_0030_astronomy_astr",
-    "name": "Major (0030): Astronomy (ASTR)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_in_physics_and_astronomy",
-    "name": "Combined Honours in Physics and Astronomy",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "minor_3192_astronomy_astr",
-    "name": "Minor (3192): Astronomy (ASTR)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_0167_atmospheric_science_atsc",
-    "name": "Major (0167): Atmospheric Science (ATSC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0429_atmospheric_science_atsc",
-    "name": "Honours (0429): Atmospheric Science (ATSC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_1372_atmospheric_science_and_computer_science_atsc_cpsc",
-    "name": "Combined Honours (1372): Atmospheric Science and Computer Science (ATSC, CPSC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_3502_behavioural_neuroscience_psyc",
-    "name": "Major (3502): Behavioural Neuroscience (PSYC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_3503_behavioural_neuroscience_psyc",
-    "name": "Honours (3503): Behavioural Neuroscience (PSYC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_0244_biochemistry_bioc_v",
-    "name": "Major (0244): Biochemistry (BIOC_V)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0186_biochemistry_bioc",
-    "name": "Honours (0186): Biochemistry (BIOC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3382_biochemistry_and_chemistry_bioc_chem",
-    "name": "Combined Major (3382): Biochemistry and Chemistry (BIOC, CHEM)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0565_biochemistry_and_chemistry_bioc_chem",
-    "name": "Combined Honours (0565): Biochemistry and Chemistry (BIOC, CHEM)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_3508_biochemistry_and_forensic_science",
-    "name": "Combined Honours (3508): Biochemistry and Forensic Science",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "minor_1184_biochemistry_bioc",
-    "name": "Minor (1184): Biochemistry (BIOC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_3095_biology_biol",
-    "name": "Major (3095): Biology (BIOL)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_3194_biology_biol",
-    "name": "Honours (3194): Biology (BIOL)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0054_animal_biology_anim",
-    "name": "Honours (0054): Animal Biology (ANIM)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0405_cell_and_developmental_biology_cell",
-    "name": "Honours (0405): Cell and Developmental Biology (CELL)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0583_conservation_biology_cons",
-    "name": "Honours (0583): Conservation Biology (CONS)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0045_ecology_ecol",
-    "name": "Honours (0045): Ecology (ECOL)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0983_evolutionary_biology_evol",
-    "name": "Honours (0983): Evolutionary Biology (EVOL)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0518_marine_biology_mrnb",
-    "name": "Honours (0518): Marine Biology (MRNB)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0372_plant_biology_ptlb",
-    "name": "Honours (0372): Plant Biology (PTLB)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_specializations",
-    "name": "Combined Major Specializations",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3340_chemical_biology",
-    "name": "Combined Major (3340): Chemical Biology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3125_oceanography_and_biology",
-    "name": "Combined Major (3125): Oceanography and Biology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1370_computer_science_and_biology",
-    "name": "Combined Major (1370): Computer Science and Biology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_specializations",
-    "name": "Combined Honours Specializations",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_3132_chemical_biology",
-    "name": "Combined Honours (3132): Chemical Biology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0535_oceanography_and_biology",
-    "name": "Combined Honours (0535): Oceanography and Biology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_1460_computer_science_and_biology",
-    "name": "Combined Honours (1460): Computer Science and Biology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_1136_biotechnology",
-    "name": "Honours (1136): Biotechnology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_3992_cellular_anatomical_and_physiological_sciences_caps",
-    "name": "Major (3992): Cellular, Anatomical and Physiological Sciences (CAPS)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_3221_cellular_anatomical_and_physiological_sciences_caps",
-    "name": "Honours (3221): Cellular, Anatomical and Physiological Sciences (CAPS)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_0409_chemistry_chem",
-    "name": "Major (0409): Chemistry (CHEM)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0213_chemistry_chem",
-    "name": "Honours (0213): Chemistry (CHEM)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_specializations",
-    "name": "Combined Major Specializations",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3382_biochemistry_and_chemistry",
-    "name": "Combined Major (3382): Biochemistry and Chemistry",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3401_computer_science_and_chemistry",
-    "name": "Combined Major (3401): Computer Science and Chemistry",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3383_oceanography_and_chemistry",
-    "name": "Combined Major (3383): Oceanography and Chemistry",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3340_chemical_biology_chem_biol",
-    "name": "Combined Major (3340): Chemical Biology (CHEM, BIOL)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_specializations",
-    "name": "Combined Honours Specializations",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_in_biochemistry_and_chemistry",
-    "name": "Combined Honours in Biochemistry and Chemistry",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_in_chemical_physics",
-    "name": "Combined Honours in Chemical Physics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_3132_chemical_biology_chem_biol",
-    "name": "Combined Honours (3132): Chemical Biology (CHEM, BIOL)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0206_chemistry_and_mathematics_chem_math",
-    "name": "Combined Honours (0206): Chemistry and Mathematics (CHEM, MATH)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_chemistry_and_another_science_subject",
-    "name": "Combined Honours: Chemistry and Another Science Subject",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "minor_1186_chemistry_chem",
-    "name": "Minor (1186): Chemistry (CHEM)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3096_science",
-    "name": "Combined Major (3096): Science",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_0376_and_honours_0154_computer_science_cpsc",
-    "name": "Major (0376) and Honours (0154): Computer Science (CPSC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_0376_computer_science_cpsc",
-    "name": "Major (0376): Computer Science (CPSC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0154_computer_science_cpsc",
-    "name": "Honours (0154): Computer Science (CPSC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_computer_science_and_another_science_subject",
-    "name": "Combined Major: Computer Science and Another Science Subject",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1370_computer_science_and_biology",
-    "name": "Combined Major (1370): Computer Science and Biology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3401_computer_science_and_chemistry_cpsc_chem",
-    "name": "Combined Major (3401): Computer Science and Chemistry (CPSC, CHEM)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1429_computer_science_and_mathematics",
-    "name": "Combined Major (1429): Computer Science and Mathematics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1371_computer_science_microbiology_and_immunology",
-    "name": "Combined Major (1371): Computer Science & Microbiology and Immunology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1391_computer_science_and_physics",
-    "name": "Combined Major (1391): Computer Science and Physics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1375_computer_science_and_statistics",
-    "name": "Combined Major (1375): Computer Science and Statistics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_1372_atmospheric_science_and_computer_science",
-    "name": "Combined Honours (1372): Atmospheric Science and Computer Science",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_1460_computer_science_and_biology",
-    "name": "Combined Honours (1460): Computer Science and Biology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0021_computer_science_and_mathematics_cpsc_math",
-    "name": "Combined Honours (0021): Computer Science and Mathematics (CPSC, MATH)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_1373_computer_science_microbiology_and_immunology",
-    "name": "Combined Honours (1373): Computer Science & Microbiology and Immunology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0138_computer_science_and_physics_cpsc_phys",
-    "name": "Combined Honours (0138): Computer Science and Physics (CPSC, PHYS)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_1376_computer_science_and_statistics_cpsc_stat",
-    "name": "Combined Honours (1376): Computer Science and Statistics (CPSC, STAT)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_1200_computer_science_and_software_engineering",
-    "name": "Major (1200): Computer Science and Software Engineering",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_1201_computer_science_and_software_engineering",
-    "name": "Honours (1201): Computer Science and Software Engineering",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "mathematical_sciences",
-    "name": "Major in Mathematical Sciences",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "data_science",
-    "name": "Minor in Data Science",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_data_science_dsci",
-    "name": "Major: Data Science (DSCI)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_1223_earth_and_ocean_sciences",
-    "name": "Major (1223): Earth and Ocean Sciences",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_1263_environmental_sciences_ensc",
-    "name": "Major (1263): Environmental Sciences (ENSC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "majors_areas_of_concentration_required_courses",
-    "name": "Majors Areas of Concentration Required Courses",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0589_environmental_sciences_ensc",
-    "name": "Honours (0589): Environmental Sciences (ENSC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_areas_of_concentration_required_courses",
-    "name": "Honours Areas of Concentration Required Courses",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "minor_3085_environmental_sciences_ensc",
-    "name": "Minor (3085): Environmental Sciences (ENSC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_3508_biochemistry_and_forensic_science",
-    "name": "Combined Honours (3508): Biochemistry and Forensic Science",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_3428_geographical_sciences_geos",
-    "name": "Major (3428): Geographical Sciences (GEOS)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_3193_geology",
-    "name": "Major (3193): Geology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0462_geological_sciences",
-    "name": "Honours (0462): Geological Sciences",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_geology_and_another_subject_geol",
-    "name": "Combined Honours: Geology and Another Subject (GEOL)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_0001_geophysics",
-    "name": "Major (0001): Geophysics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0380_geophysics_geop_1",
-    "name": "Honours (0380): Geophysics (GEOP) 1",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_geophysics_and_another_science_subject_1",
-    "name": "Combined Honours: Geophysics and Another Science Subject 1",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "minor_geophysics_geop",
-    "name": "Minor: Geophysics (GEOP)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_1682_integrated_sciences_insc",
-    "name": "Major (1682): Integrated Sciences (INSC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_001511_integrated_sciences",
-    "name": "Honours (001511): Integrated Sciences",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major",
-    "name": "Major",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_0456_mathematics_math",
-    "name": "Major (0456): Mathematics (MATH)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "mathematical_sciences",
-    "name": "Major in Mathematical Sciences",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_0185_mathematical_sciences_masc",
-    "name": "Major (0185): Mathematical Sciences (MASC)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1135_mathematics_and_economics_math_econ",
-    "name": "Combined Major (1135): Mathematics and Economics (MATH, ECON)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1429_computer_science_and_mathematics",
-    "name": "Combined Major (1429): Computer Science and Mathematics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours",
-    "name": "Honours",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0166_mathematics_math",
-    "name": "Honours (0166): Mathematics (MATH)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0206_chemistry_and_mathematics",
-    "name": "Combined Honours (0206): Chemistry and Mathematics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0021_computer_science_and_mathematics",
-    "name": "Combined Honours (0021): Computer Science and Mathematics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0014_physics_and_mathematics",
-    "name": "Combined Honours (0014): Physics and Mathematics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0550_mathematics_and_statistics",
-    "name": "Combined Honours (0550): Mathematics and Statistics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_mathematics_math_with_another_subject",
-    "name": "Combined Honours: Mathematics (MATH) with Another Subject",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_1153_microbiology_and_immunology",
-    "name": "Major (1153): Microbiology and Immunology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_1154_microbiology_and_immunology_mbim",
-    "name": "Honours (1154): Microbiology and Immunology (MBIM)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1371_computer_science_microbiology_and_immunology",
-    "name": "Combined Major (1371): Computer Science & Microbiology and Immunology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_1373_computer_science_microbiology_and_immunology",
-    "name": "Combined Honours (1373): Computer Science & Microbiology and Immunology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3144_microbiology_and_oceanography",
-    "name": "Combined Major (3144): Microbiology and Oceanography",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "land_and_food_systems",
-    "name": "Minor in Land and Food Systems",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "arts",
-    "name": "Minor in Arts",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "commerce",
-    "name": "Minor in Commerce",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "kinesiology",
-    "name": "Minor in Kinesiology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "science",
-    "name": "Minor in Science",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_3742_neuroscience_nsci",
-    "name": "Major (3742): Neuroscience (NSCI)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_cognitive_systems_1225_cognition_and_brain",
-    "name": "Major Cognitive Systems (1225): Cognition and Brain",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3125_oceanography_and_biology",
-    "name": "Combined Major (3125): Oceanography and Biology",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3144_microbiology_and_oceanography",
-    "name": "Combined Major (3144): Microbiology and Oceanography",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3383_oceanography_and_chemistry",
-    "name": "Combined Major (3383): Oceanography and Chemistry",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3126_oceanography_and_physics",
-    "name": "Combined Major (3126): Oceanography and Physics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0577_fisheries_oceanography",
-    "name": "Honours (0577): Fisheries Oceanography",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_oceanography_and_another_science_subject_1",
-    "name": "Combined Honours: Oceanography and Another Science Subject 1",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0535_oceanography_and_biology_ocgy_biol",
-    "name": "Combined Honours (0535): Oceanography and Biology (OCGY, BIOL)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "minor_1193_oceanography_ocgy",
-    "name": "Minor (1193): Oceanography (OCGY)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_0311_pharmacology_pcth",
-    "name": "Major (0311): Pharmacology (PCTH)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0019_pharmacology_pcth",
-    "name": "Honours (0019): Pharmacology (PCTH)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_0524_physics_phys",
-    "name": "Major (0524): Physics (PHYS)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1391_computer_science_and_physics",
-    "name": "Combined Major (1391): Computer Science and Physics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_3126_oceanography_and_physics",
-    "name": "Combined Major (3126): Oceanography and Physics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0344_physics_phys",
-    "name": "Honours (0344): Physics (PHYS)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_3676_biophysics_biop",
-    "name": "Combined Honours (3676): Biophysics (BIOP)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0009_physics_and_astronomy_phys_astr",
-    "name": "Combined Honours (0009): Physics and Astronomy (PHYS, ASTR)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0517_chemical_physics_phys_chem",
-    "name": "Combined Honours (0517): Chemical Physics (PHYS, CHEM)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0138_computer_science_and_physics",
-    "name": "Combined Honours (0138): Computer Science and Physics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_physics_and_another_science_subject_1",
-    "name": "Combined Honours: Physics and Another Science Subject 1",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0014_physics_and_mathematics_phys_math",
-    "name": "Combined Honours (0014): Physics and Mathematics (PHYS, MATH)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "minor_1195_physics_phys",
-    "name": "Minor (1195): Physics (PHYS)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "major_0562_statistics_stat",
-    "name": "Major (0562): Statistics (STAT)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "mathematical_sciences",
-    "name": "Major in Mathematical Sciences",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1330_statistics_and_economics",
-    "name": "Combined Major (1330): Statistics and Economics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_major_1375_computer_science_and_statistics",
-    "name": "Combined Major (1375): Computer Science and Statistics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "honours_0051_statistics_stat",
-    "name": "Honours (0051): Statistics (STAT)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_0550_mathematics_and_statistics_math_stat",
-    "name": "Combined Honours (0550): Mathematics and Statistics (MATH, STAT)",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "combined_honours_computer_science_and_statistics",
-    "name": "Combined Honours: Computer Science and Statistics",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "data_science",
-    "name": "Minor in Data Science",
-    "faculty": "Science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
-  },
-  {
-    "id": "arts",
-    "name": "Minor in Arts",
-    "faculty": "School of Kinesiology",
-    "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
-  },
-  {
-    "id": "commerce",
-    "name": "Minor in Commerce",
-    "faculty": "School of Kinesiology",
-    "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
-  },
-  {
-    "id": "educational_and_counselling_psychology_and_special_education",
-    "name": "Minor in Educational and Counselling Psychology and Special Education",
-    "faculty": "School of Kinesiology",
-    "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
-  },
-  {
-    "id": "nutritional_science",
-    "name": "Minor in Nutritional Science",
-    "faculty": "School of Kinesiology",
-    "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
-  },
-  {
-    "id": "science",
-    "name": "Minor in Science",
-    "faculty": "School of Kinesiology",
-    "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
-  },
-  {
-    "id": "science",
-    "name": "Minor in Science",
+    "id": "music_advanced_performance",
+    "name": "Major in Music: Advanced Performance",
     "faculty": "School of Music",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of Music",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "applied_music_technology",
-    "name": "Minor in Applied Music Technology",
+    "id": "music_composition",
+    "name": "Major in Music: Composition",
     "faculty": "School of Music",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of Music",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "education",
-    "name": "Minor in Education",
+    "id": "music_general_studies",
+    "name": "Major in Music: General Studies",
     "faculty": "School of Music",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of Music",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "land_and_food_systems",
-    "name": "Minor in Land and Food Systems",
+    "id": "music_scholarship",
+    "name": "Major in Music: Scholarship",
     "faculty": "School of Music",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of Music",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "honours_and_awards_at_graduation",
-    "name": "Honours and Awards at Graduation",
-    "faculty": "Vancouver School of Economics",
+    "id": "theatre_acting",
+    "name": "Major in Theatre: Acting",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of Fine Arts",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "arts",
-    "name": "Minor in Arts",
-    "faculty": "Vancouver School of Economics",
+    "id": "theatre_design_production",
+    "name": "Major in Theatre: Design and Production",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of Fine Arts",
+    "requirements": [],
+    "co-op": false,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "education",
-    "name": "Minor in Education",
-    "faculty": "Vancouver School of Economics",
+    "id": "visual_art_ba",
+    "name": "Major in Visual Art",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "land_and_food_systems",
-    "name": "Minor in Land and Food Systems",
-    "faculty": "Vancouver School of Economics",
+    "id": "visual_art_bfa",
+    "name": "Major in Visual Art",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of Fine Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "science",
-    "name": "Minor in Science",
-    "faculty": "Vancouver School of Economics",
+    "id": "honours_visual_art_bfa",
+    "name": "Honours in Visual Art",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Fine Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "visual_arts",
+    "name": "Major in Visual Arts",
+    "faculty": "Faculty of Creative and Critical Studies",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of Fine Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "major_or_honours_programs",
-    "name": "Major or Honours Programs",
-    "faculty": "Vancouver School of Economics",
+    "id": "anthropology_okanagan",
+    "name": "Major in Anthropology",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "arts",
-    "name": "Minor in Arts",
-    "faculty": "faculty-applied-science",
+    "id": "anthropology_vancouver",
+    "name": "Major in Anthropology",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_anthropology_vancouver",
+    "name": "Honours in Anthropology",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "cultural_studies",
+    "name": "Major in Cultural Studies",
+    "faculty": "Faculty of Creative and Critical Studies",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "museum_studies",
+    "name": "Major in Museum Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_museum_studies",
+    "name": "Honours in Museum Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "philosophy_okanagan",
+    "name": "Major in Philosophy",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "philosophy_vancouver",
+    "name": "Major in Philosophy",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_philosophy_vancouver",
+    "name": "Honours in Philosophy",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "social_work",
+    "name": "Major in Social Work",
+    "faculty": "School of Social Work",
+    "totalCredits": 120,
+    "description": "Bachelor of Social Work",
+    "requirements": [],
+    "co-op": false,
+    "length": 2.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "sociology_okanagan",
+    "name": "Major in Sociology",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "sociology_vancouver",
+    "name": "Major in Sociology",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_sociology_vancouver",
+    "name": "Honours in Sociology",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "geo_environment_sustainability",
+    "name": "Major in Geography: Environment and Sustainability",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_geo_environment_sustainability",
+    "name": "Honours in Geography: Environment and Sustainability",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "human_geography",
+    "name": "Major in Geography: Human Geography",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_human_geography",
+    "name": "Honours in Geography: Human Geography",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "urbanstudies",
+    "name": "Major in Urban Studies",
+    "faculty": "Faculty of Applied Science (Engineering), Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "education_nitep",
+    "name": "Major in Education: Indigenous Teacher Education Program",
+    "faculty": "Faculty of Education",
+    "totalCredits": 120,
+    "description": "Bachelor of Education",
+    "requirements": [],
+    "co-op": true,
+    "length": 5.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "education_wktep",
+    "name": "Major in Education: West Kootenay Teacher Education Program",
+    "faculty": "Faculty of Education",
+    "totalCredits": 120,
+    "description": "Bachelor of Education",
+    "requirements": [],
+    "co-op": true,
+    "length": 0.917,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "vantage_one_applied_science",
+    "name": "Major in Vantage One: Applied Science",
+    "faculty": "UBC Vantage College",
+    "totalCredits": 120,
+    "description": null,
+    "requirements": [],
+    "co-op": false,
+    "length": 0.917,
+    "campus": null
+  },
+  {
+    "id": "vantage_one_applied_science",
+    "name": "Major in Vantage One: Applied Science",
+    "faculty": "UBC Vantage College",
+    "totalCredits": 120,
+    "description": null,
+    "requirements": [],
+    "co-op": false,
+    "length": 0.917,
+    "campus": null
+  },
+  {
+    "id": "cellular_anatomical_physiological_sciences",
+    "name": "Major in Cellular, Anatomical, and Physiological Sciences",
+    "faculty": "Faculty of Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "commerce",
-    "name": "Minor in Commerce",
-    "faculty": "faculty-applied-science",
-    "totalCredits": 120,
+    "id": "honours_cellular_anatomical_physiological_sciences",
+    "name": "Honours in Cellular, Anatomical, and Physiological Sciences",
+    "faculty": "Faculty of Science",
+    "totalCredits": 132,
     "description": "Bachelor of Science",
-    "requirements": []
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "entrepreneurship",
-    "name": "Minor in Entrepreneurship",
-    "faculty": "faculty-applied-science",
+    "id": "food_nutrition_and_health",
+    "name": "Major in Food, Nutrition, and Health",
+    "faculty": "Faculty of Land and Food Systems",
     "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
+    "description": "Bachelor of Science in Food, Nutrition, and Health",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "honours_mathematics",
-    "name": "Minor in Honours Mathematics",
-    "faculty": "faculty-applied-science",
+    "id": "psychology_vancouver_ba",
+    "name": "Major in Psychology",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "science",
-    "name": "Minor in Science",
-    "faculty": "faculty-applied-science",
-    "totalCredits": 120,
-    "description": "Bachelor of Science",
-    "requirements": []
+    "id": "honours_psychology_vancouver_ba",
+    "name": "Honours in Psychology",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "honours_option",
-    "name": "Honours Option",
-    "faculty": "school-architecture-and-landscape-architecture",
+    "id": "spanish_hispanic_studies",
+    "name": "Major in Spanish",
+    "faculty": "Faculty of Arts",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
   },
   {
-    "id": "arts",
-    "name": "Minor in Arts",
-    "faculty": "school-architecture-and-landscape-architecture",
+    "id": "nle%c9%82kepmx_language_fluency",
+    "name": "Major in NłeɁkepmx Language Fluency",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of NłeɁkepmx Language Fluency",
+    "requirements": [],
+    "co-op": false,
+    "length": 2.0,
+    "campus": "Okanagan"
   },
   {
-    "id": "science",
-    "name": "Minor in Science",
-    "faculty": "school-architecture-and-landscape-architecture",
+    "id": "statimc_language_fluency",
+    "name": "Major in St’át’imc Language Fluency",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
     "totalCredits": 120,
-    "description": "Bachelor",
-    "requirements": []
+    "description": "Bachelor of St’át’imc Language Fluency",
+    "requirements": [],
+    "co-op": false,
+    "length": 2.0,
+    "campus": "Okanagan"
+  },
+  {
+    "id": "theatre",
+    "name": "Major in Theatre Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "honours_theatre",
+    "name": "Honours in Theatre Studies",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 132,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "gender_race_sexuality_social_justice",
+    "name": "Major in Gender, Race, Sexuality, and Social Justice",
+    "faculty": "Faculty of Arts",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Vancouver"
+  },
+  {
+    "id": "gender_women_sexuality_studies",
+    "name": "Major in Gender, Women and Sexuality Studies",
+    "faculty": "Irving K. Barber Faculty of Arts and Social Sciences",
+    "totalCredits": 120,
+    "description": "Bachelor of Arts",
+    "requirements": [],
+    "co-op": true,
+    "length": 4.0,
+    "campus": "Okanagan"
   }
 ]
