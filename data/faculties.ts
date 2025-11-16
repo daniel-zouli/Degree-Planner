@@ -2649,38 +2649,22 @@ export const faculties: Faculty[] = [
   },
   {
     id: 'commerce-and-business-administration',
-    name: 'Commerce',
+    name: 'Sauder',
     programs: [
       {
-        id: 'arts',
-        name: 'Minor in Arts',
-        faculty: 'Commerce and Business Administration',
-        totalCredits: 120,
-        description: 'Bachelor',
-        requirements: []
-      },
-      {
         id: 'commerce',
-        name: 'Minor in Commerce',
-        faculty: 'Commerce and Business Administration',
+        name: 'Major in Commerce',
+        faculty: 'UBC Sauder School of Business',
         totalCredits: 120,
-        description: 'Bachelor',
+        description: 'Bachelor of Commerce',
         requirements: []
       },
       {
-        id: 'science',
-        name: 'Minor in Science',
-        faculty: 'Commerce and Business Administration',
+        id: 'business_computer_science',
+        name: 'Major in Business and Computer Science',
+        faculty: 'UBC Sauder School of Business / Department of Computer Science',
         totalCredits: 120,
-        description: 'Bachelor',
-        requirements: []
-      },
-      {
-        id: 'minors',
-        name: 'Minors',
-        faculty: 'Commerce and Business Administration',
-        totalCredits: 120,
-        description: 'Bachelor',
+        description: 'Bachelor of Commerce',
         requirements: []
       },
     ]
