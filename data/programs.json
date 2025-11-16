@@ -3,8 +3,8 @@
     "id": "master_management_dual_degree_okanagan",
     "name": "Major in Bachelor + Master of Management Dual Degree",
     "faculty": [
-      "Faculty of Creative and Critical Studies",
-      "Faculty of Management",
+      "Creative and Critical Studies",
+      "Management",
       "Irving K. Barber Faculty of Arts and Social Sciences",
       "Irving K. Barber Faculty of Science",
       "School of Engineering",
@@ -21,10 +21,10 @@
     "id": "master_management_dual_degree",
     "name": "Major in Bachelor + Master of Management Dual Degree",
     "faculty": [
-      "Faculty of Arts",
-      "Faculty of Forestry",
-      "Faculty of Land and Food Systems",
-      "Faculty of Science",
+      "Arts",
+      "Forestry",
+      "Land and Food Systems",
+      "Science",
       "School of Kinesiology",
       "School of Music",
       "UBC Sauder School of Business"
@@ -40,10 +40,10 @@
     "id": "honours_master_management_dual_degree",
     "name": "Honours in Bachelor + Master of Management Dual Degree",
     "faculty": [
-      "Faculty of Arts",
-      "Faculty of Forestry",
-      "Faculty of Land and Food Systems",
-      "Faculty of Science",
+      "Arts",
+      "Forestry",
+      "Land and Food Systems",
+      "Science",
       "School of Kinesiology",
       "School of Music",
       "UBC Sauder School of Business"
@@ -58,7 +58,7 @@
   {
     "id": "bioeconomy_sciences_technology",
     "name": "Major in Bioeconomy Sciences and Technology",
-    "faculty": "Faculty of Forestry",
+    "faculty": "Forestry",
     "totalCredits": 120,
     "description": "Bachelor of Science in Natural Resources",
     "requirements": [],
@@ -80,7 +80,7 @@
   {
     "id": "business_and_markets",
     "name": "Major in Business and Markets",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 120,
     "description": "Bachelor of Science in Food and Resource Economics",
     "requirements": [],
@@ -91,7 +91,7 @@
   {
     "id": "science_combined_major",
     "name": "Major in Combined Major in Science",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -103,8 +103,8 @@
     "id": "statistics_combined_majors",
     "name": "Major in Combined Majors in Statistics",
     "faculty": [
-      "Faculty of Arts",
-      "Faculty of Science"
+      "Arts",
+      "Science"
     ],
     "totalCredits": 120,
     "description": "Bachelor of Arts, Bachelor of Science",
@@ -117,8 +117,8 @@
     "id": "honours_statistics_combined_majors",
     "name": "Honours in Combined Majors in Statistics",
     "faculty": [
-      "Faculty of Arts",
-      "Faculty of Science"
+      "Arts",
+      "Science"
     ],
     "totalCredits": 132,
     "description": "Bachelor of Arts, Bachelor of Science",
@@ -152,7 +152,7 @@
   {
     "id": "data_analytics",
     "name": "Major in Data Analytics",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 120,
     "description": "Bachelor of Science in Food and Resource Economics",
     "requirements": [],
@@ -163,7 +163,7 @@
   {
     "id": "economics_vancouver",
     "name": "Major in Economics",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -174,7 +174,7 @@
   {
     "id": "honours_economics_vancouver",
     "name": "Honours in Economics",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -229,7 +229,7 @@
   {
     "id": "forest_operations",
     "name": "Major in Forest Operations",
-    "faculty": "Faculty of Forestry",
+    "faculty": "Forestry",
     "totalCredits": 120,
     "description": "Bachelor of Science in Natural Resources",
     "requirements": [],
@@ -251,7 +251,7 @@
   {
     "id": "interdisciplinary_studies",
     "name": "Major in Interdisciplinary Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -273,7 +273,7 @@
   {
     "id": "manufacturing_engineering_okanagan",
     "name": "Major in Manufacturing Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -284,7 +284,7 @@
   {
     "id": "manufacturing_engineering_vancouver",
     "name": "Major in Manufacturing Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -295,7 +295,7 @@
   {
     "id": "mathematics_economics",
     "name": "Major in Mathematics and Economics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -306,7 +306,7 @@
   {
     "id": "honours_mathematics_economics",
     "name": "Honours in Mathematics and Economics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -339,7 +339,7 @@
   {
     "id": "wood_products",
     "name": "Major in Wood Products",
-    "faculty": "Faculty of Forestry",
+    "faculty": "Forestry",
     "totalCredits": 120,
     "description": "Bachelor of Science in Natural Resources",
     "requirements": [],
@@ -350,7 +350,7 @@
   {
     "id": "archaeology",
     "name": "Major in Archaeology",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -361,7 +361,7 @@
   {
     "id": "honours_archaeology",
     "name": "Honours in Archaeology",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -383,7 +383,7 @@
   {
     "id": "atmospheric_science",
     "name": "Major in Atmospheric Science",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -394,7 +394,7 @@
   {
     "id": "conservation",
     "name": "Major in Conservation",
-    "faculty": "Faculty of Forestry",
+    "faculty": "Forestry",
     "totalCredits": 120,
     "description": "Bachelor of Science in Natural Resources",
     "requirements": [],
@@ -427,7 +427,7 @@
   {
     "id": "earth_ocean_sciences",
     "name": "Major in Earth and Ocean Sciences",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -438,7 +438,7 @@
   {
     "id": "honours_earth_ocean_sciences",
     "name": "Honours in Earth and Ocean Sciences",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -482,7 +482,7 @@
   {
     "id": "environmental_engineering",
     "name": "Major in Environmental Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -493,7 +493,7 @@
   {
     "id": "environmental_engineering_joint_unbc_ubc",
     "name": "Major in Environmental Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -504,7 +504,7 @@
   {
     "id": "environmental_sciences",
     "name": "Major in Environmental Sciences",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -515,7 +515,7 @@
   {
     "id": "honours_environmental_sciences",
     "name": "Honours in Environmental Sciences",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -526,7 +526,7 @@
   {
     "id": "forest_management",
     "name": "Major in Forest Management",
-    "faculty": "Faculty of Forestry",
+    "faculty": "Forestry",
     "totalCredits": 120,
     "description": "Bachelor of Science in Natural Resources",
     "requirements": [],
@@ -537,7 +537,7 @@
   {
     "id": "forest_sciences",
     "name": "Major in Forest Sciences",
-    "faculty": "Faculty of Forestry",
+    "faculty": "Forestry",
     "totalCredits": 120,
     "description": "Bachelor of Science in Natural Resources",
     "requirements": [],
@@ -548,7 +548,7 @@
   {
     "id": "honours_forest_sciences",
     "name": "Honours in Forest Sciences",
-    "faculty": "Faculty of Forestry",
+    "faculty": "Forestry",
     "totalCredits": 132,
     "description": "Bachelor of Science in Natural Resources",
     "requirements": [],
@@ -592,7 +592,7 @@
   {
     "id": "geographical_sciences",
     "name": "Major in Geographical Sciences",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -614,7 +614,7 @@
   {
     "id": "geology",
     "name": "Major in Geology",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -625,7 +625,7 @@
   {
     "id": "honours_geology",
     "name": "Honours in Geology",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -636,7 +636,7 @@
   {
     "id": "geophysics",
     "name": "Major in Geophysics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -647,7 +647,7 @@
   {
     "id": "honours_geophysics",
     "name": "Honours in Geophysics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -658,7 +658,7 @@
   {
     "id": "global_resource_systems",
     "name": "Major in Global Resource Systems",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 120,
     "description": "Bachelor of Science in Global Resource Systems",
     "requirements": [],
@@ -669,7 +669,7 @@
   {
     "id": "indigenous_land_stewardship",
     "name": "Major in Indigenous Land Stewardship",
-    "faculty": "Faculty of Forestry",
+    "faculty": "Forestry",
     "totalCredits": 120,
     "description": "Bachelor of Indigenous Land Stewardship",
     "requirements": [],
@@ -680,7 +680,7 @@
   {
     "id": "integrated_sciences",
     "name": "Major in Integrated Sciences",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -691,7 +691,7 @@
   {
     "id": "honours_integrated_sciences",
     "name": "Honours in Integrated Sciences",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -702,7 +702,7 @@
   {
     "id": "oceanography",
     "name": "Major in Oceanography",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -713,7 +713,7 @@
   {
     "id": "honours_oceanography",
     "name": "Honours in Oceanography",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -725,7 +725,7 @@
     "id": "sustainability",
     "name": "Major in Sustainability",
     "faculty": [
-      "Faculty of Creative and Critical Studies",
+      "Creative and Critical Studies",
       "Irving K. Barber Faculty of Arts and Social Sciences",
       "Irving K. Barber Faculty of Science"
     ],
@@ -739,7 +739,7 @@
   {
     "id": "sustainable_agriculture_environment",
     "name": "Major in Sustainable Agriculture and Environment",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 120,
     "description": "Bachelor of Science in Applied Biology",
     "requirements": [],
@@ -750,7 +750,7 @@
   {
     "id": "honours_sustainable_agriculture_environment",
     "name": "Honours in Sustainable Agriculture and Environment",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 132,
     "description": "Bachelor of Science in Applied Biology",
     "requirements": [],
@@ -761,7 +761,7 @@
   {
     "id": "urban_forestry",
     "name": "Major in Urban Forestry",
-    "faculty": "Faculty of Forestry",
+    "faculty": "Forestry",
     "totalCredits": 120,
     "description": "Bachelor of Urban Forestry",
     "requirements": [],
@@ -772,7 +772,7 @@
   {
     "id": "education_elementary_middle_years",
     "name": "Major in Education: Elementary and Middle Years",
-    "faculty": "Faculty of Education",
+    "faculty": "Education",
     "totalCredits": 120,
     "description": "Bachelor of Education",
     "requirements": [],
@@ -783,7 +783,7 @@
   {
     "id": "education_international_baccalaureate",
     "name": "Major in Education: International Baccalaureate",
-    "faculty": "Faculty of Education",
+    "faculty": "Education",
     "totalCredits": 120,
     "description": "Bachelor of Education",
     "requirements": [],
@@ -794,7 +794,7 @@
   {
     "id": "education_secondary",
     "name": "Major in Education: Secondary",
-    "faculty": "Faculty of Education",
+    "faculty": "Education",
     "totalCredits": 120,
     "description": "Bachelor of Education",
     "requirements": [],
@@ -839,8 +839,8 @@
     "id": "biomedical_engineering",
     "name": "Major in Biomedical Engineering",
     "faculty": [
-      "Faculty of Applied Science (Engineering)",
-      "Faculty of Medicine"
+      "Applied Science (Engineering)",
+      "Medicine"
     ],
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
@@ -852,7 +852,7 @@
   {
     "id": "chemical_engineering",
     "name": "Major in Chemical Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -863,7 +863,7 @@
   {
     "id": "chemical_biological_engineering",
     "name": "Major in Chemical and Biological Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -885,7 +885,7 @@
   {
     "id": "civil_engineering_vancouver",
     "name": "Major in Civil Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -896,7 +896,7 @@
   {
     "id": "cognitive_systems_bsc",
     "name": "Major in Cognitive Systems",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -907,7 +907,7 @@
   {
     "id": "computer_engineering",
     "name": "Major in Computer Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -918,7 +918,7 @@
   {
     "id": "computer_engineering",
     "name": "Major in Computer Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -940,7 +940,7 @@
   {
     "id": "computer_science_vancouver_ba",
     "name": "Major in Computer Science",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -973,7 +973,7 @@
   {
     "id": "computer_science_vancouver_bsc",
     "name": "Major in Computer Science",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -984,7 +984,7 @@
   {
     "id": "honours_computer_science_vancouver_bsc",
     "name": "Honours in Computer Science",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1028,7 +1028,7 @@
   {
     "id": "electrical_engineering_vancouver",
     "name": "Major in Electrical Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -1039,7 +1039,7 @@
   {
     "id": "engineering_physics",
     "name": "Major in Engineering Physics",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -1050,7 +1050,7 @@
   {
     "id": "geological_engineering",
     "name": "Major in Geological Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -1061,7 +1061,7 @@
   {
     "id": "integrated_computer_science",
     "name": "Major in Integrated Computer Science",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Computer Science",
     "requirements": [],
@@ -1072,7 +1072,7 @@
   {
     "id": "honours_integrated_computer_science",
     "name": "Honours in Integrated Computer Science",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Computer Science",
     "requirements": [],
@@ -1083,7 +1083,7 @@
   {
     "id": "integrated_engineering",
     "name": "Major in Integrated Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -1094,7 +1094,7 @@
   {
     "id": "materials_engineering",
     "name": "Major in Materials Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -1116,7 +1116,7 @@
   {
     "id": "mechanical_engineering_vancouver",
     "name": "Major in Mechanical Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -1127,7 +1127,7 @@
   {
     "id": "mining_engineering",
     "name": "Major in Mining Engineering",
-    "faculty": "Faculty of Applied Science (Engineering)",
+    "faculty": "Applied Science (Engineering)",
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -1149,7 +1149,7 @@
   {
     "id": "applied_animal_biology",
     "name": "Major in Applied Animal Biology",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 120,
     "description": "Bachelor of Science in Applied Biology",
     "requirements": [],
@@ -1160,7 +1160,7 @@
   {
     "id": "honours_applied_animal_biology",
     "name": "Honours in Applied Animal Biology",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 132,
     "description": "Bachelor of Science in Applied Biology",
     "requirements": [],
@@ -1171,7 +1171,7 @@
   {
     "id": "biochemistry",
     "name": "Major in Biochemistry",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1182,7 +1182,7 @@
   {
     "id": "honours_biochemistry",
     "name": "Honours in Biochemistry",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1237,7 +1237,7 @@
   {
     "id": "biology_vancouver",
     "name": "Major in Biology",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1248,7 +1248,7 @@
   {
     "id": "honours_biology_vancouver",
     "name": "Honours in Biology",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1259,7 +1259,7 @@
   {
     "id": "biophysics",
     "name": "Major in Biophysics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1270,7 +1270,7 @@
   {
     "id": "honours_biophysics",
     "name": "Honours in Biophysics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1281,7 +1281,7 @@
   {
     "id": "biotechnology",
     "name": "Major in Biotechnology",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1292,7 +1292,7 @@
   {
     "id": "honours_biotechnology",
     "name": "Honours in Biotechnology",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1303,7 +1303,7 @@
   {
     "id": "dental_hygiene",
     "name": "Major in Dental Hygiene",
-    "faculty": "Faculty of Dentistry",
+    "faculty": "Dentistry",
     "totalCredits": 120,
     "description": "Bachelor of Dental Science",
     "requirements": [],
@@ -1314,7 +1314,7 @@
   {
     "id": "dentistry",
     "name": "Major in Dentistry",
-    "faculty": "Faculty of Dentistry",
+    "faculty": "Dentistry",
     "totalCredits": 120,
     "description": "Doctor of Dental Medicine",
     "requirements": [],
@@ -1325,7 +1325,7 @@
   {
     "id": "dietetics",
     "name": "Major in Dietetics",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 120,
     "description": "Bachelor of Science in Food, Nutrition, and Health",
     "requirements": [],
@@ -1336,7 +1336,7 @@
   {
     "id": "food_science",
     "name": "Major in Food Science",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 120,
     "description": "Bachelor of Science in Food, Nutrition, and Health",
     "requirements": [],
@@ -1347,7 +1347,7 @@
   {
     "id": "food_nutritional_sciences",
     "name": "Major in Food and Nutritional Sciences",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 120,
     "description": "Bachelor of Science in Food, Nutrition, and Health",
     "requirements": [],
@@ -1413,7 +1413,7 @@
   {
     "id": "medical_laboratory_science",
     "name": "Major in Medical Laboratory Science",
-    "faculty": "Faculty of Medicine",
+    "faculty": "Medicine",
     "totalCredits": 120,
     "description": "Bachelor of Medical Laboratory Science",
     "requirements": [],
@@ -1424,7 +1424,7 @@
   {
     "id": "medicine",
     "name": "Major in Medicine",
-    "faculty": "Faculty of Medicine",
+    "faculty": "Medicine",
     "totalCredits": 120,
     "description": "Doctor of Medicine",
     "requirements": [],
@@ -1435,7 +1435,7 @@
   {
     "id": "medicine",
     "name": "Major in Medicine",
-    "faculty": "Faculty of Medicine",
+    "faculty": "Medicine",
     "totalCredits": 120,
     "description": "Doctor of Medicine",
     "requirements": [],
@@ -1468,7 +1468,7 @@
   {
     "id": "microbiology_immunology",
     "name": "Major in Microbiology and Immunology",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1479,7 +1479,7 @@
   {
     "id": "honours_microbiology_immunology",
     "name": "Honours in Microbiology and Immunology",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1490,7 +1490,7 @@
   {
     "id": "midwifery",
     "name": "Major in Midwifery",
-    "faculty": "Faculty of Medicine",
+    "faculty": "Medicine",
     "totalCredits": 120,
     "description": "Bachelor of Midwifery",
     "requirements": [],
@@ -1501,7 +1501,7 @@
   {
     "id": "neuroscience",
     "name": "Major in Neuroscience",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1534,7 +1534,7 @@
   {
     "id": "nutritional_sciences",
     "name": "Major in Nutritional Sciences",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 120,
     "description": "Bachelor of Science in Food, Nutrition, and Health",
     "requirements": [],
@@ -1545,7 +1545,7 @@
   {
     "id": "pharmaceutical_sciences",
     "name": "Major in Pharmaceutical Sciences",
-    "faculty": "Faculty of Pharmaceutical Sciences",
+    "faculty": "Pharmaceutical Sciences",
     "totalCredits": 120,
     "description": "Bachelor of Pharmaceutical Sciences",
     "requirements": [],
@@ -1556,7 +1556,7 @@
   {
     "id": "honours_pharmaceutical_sciences",
     "name": "Honours in Pharmaceutical Sciences",
-    "faculty": "Faculty of Pharmaceutical Sciences",
+    "faculty": "Pharmaceutical Sciences",
     "totalCredits": 132,
     "description": "Bachelor of Pharmaceutical Sciences",
     "requirements": [],
@@ -1567,7 +1567,7 @@
   {
     "id": "pharmacology",
     "name": "Major in Pharmacology",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1578,7 +1578,7 @@
   {
     "id": "honours_pharmacology",
     "name": "Honours in Pharmacology",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -1589,7 +1589,7 @@
   {
     "id": "pharmacy",
     "name": "Major in Pharmacy",
-    "faculty": "Faculty of Pharmaceutical Sciences",
+    "faculty": "Pharmaceutical Sciences",
     "totalCredits": 120,
     "description": "Doctor of Pharmacy",
     "requirements": [],
@@ -1644,7 +1644,7 @@
   {
     "id": "speech_sciences",
     "name": "Major in Speech Sciences",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1677,7 +1677,7 @@
   {
     "id": "ancient_mediterranean_near_eastern_studies",
     "name": "Major in Ancient Mediterranean and Near Eastern Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1688,7 +1688,7 @@
   {
     "id": "honours_ancient_mediterranean_near_eastern_studies",
     "name": "Honours in Ancient Mediterranean and Near Eastern Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1699,7 +1699,7 @@
   {
     "id": "asian_area_studies",
     "name": "Major in Asian Area Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1710,7 +1710,7 @@
   {
     "id": "honours_asian_area_studies",
     "name": "Honours in Asian Area Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1721,7 +1721,7 @@
   {
     "id": "canadian_studies",
     "name": "Major in Canadian Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1732,7 +1732,7 @@
   {
     "id": "honours_canadian_studies",
     "name": "Honours in Canadian Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1743,7 +1743,7 @@
   {
     "id": "first_nations_indigenous_studies",
     "name": "Major in First Nations and Indigenous Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1776,7 +1776,7 @@
   {
     "id": "history_vancouver",
     "name": "Major in History",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1787,7 +1787,7 @@
   {
     "id": "honours_history_vancouver",
     "name": "Honours in History",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1820,7 +1820,7 @@
   {
     "id": "international_relations_vancouver",
     "name": "Major in International Relations",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1831,7 +1831,7 @@
   {
     "id": "honours_international_relations_vancouver",
     "name": "Honours in International Relations",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1842,7 +1842,7 @@
   {
     "id": "latin_american_studies_vancouver",
     "name": "Major in Latin American Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1864,7 +1864,7 @@
   {
     "id": "medieval_studies",
     "name": "Major in Medieval Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1875,7 +1875,7 @@
   {
     "id": "modern_european_studies",
     "name": "Major in Modern European Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1897,7 +1897,7 @@
   {
     "id": "political_science_vancouver",
     "name": "Major in Political Science",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1908,7 +1908,7 @@
   {
     "id": "honours_political_science_vancouver",
     "name": "Honours in Political Science",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1919,7 +1919,7 @@
   {
     "id": "religion",
     "name": "Major in Religion",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1930,7 +1930,7 @@
   {
     "id": "united_states_studies",
     "name": "Major in United States Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1941,7 +1941,7 @@
   {
     "id": "cognitive_systems_ba",
     "name": "Major in Cognitive Systems",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1952,7 +1952,7 @@
   {
     "id": "english_okanagan",
     "name": "Major in English",
-    "faculty": "Faculty of Creative and Critical Studies",
+    "faculty": "Creative and Critical Studies",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1963,7 +1963,7 @@
   {
     "id": "honours_english_okanagan",
     "name": "Honours in English",
-    "faculty": "Faculty of Creative and Critical Studies",
+    "faculty": "Creative and Critical Studies",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1974,7 +1974,7 @@
   {
     "id": "english_vancouver",
     "name": "Major in English",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1985,7 +1985,7 @@
   {
     "id": "honours_english_vancouver",
     "name": "Honours in English",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -1996,7 +1996,7 @@
   {
     "id": "first_nations_endangered_languages",
     "name": "Major in First Nations and Endangered Languages",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2007,7 +2007,7 @@
   {
     "id": "french_okanagan",
     "name": "Major in French",
-    "faculty": "Faculty of Creative and Critical Studies",
+    "faculty": "Creative and Critical Studies",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2018,7 +2018,7 @@
   {
     "id": "french_vancouver",
     "name": "Major in French",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2029,7 +2029,7 @@
   {
     "id": "honours_french_vancouver",
     "name": "Honours in French",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2040,7 +2040,7 @@
   {
     "id": "german",
     "name": "Major in German",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2051,7 +2051,7 @@
   {
     "id": "honours_german",
     "name": "Honours in German",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2062,7 +2062,7 @@
   {
     "id": "languages",
     "name": "Major in Languages",
-    "faculty": "Faculty of Creative and Critical Studies",
+    "faculty": "Creative and Critical Studies",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2073,7 +2073,7 @@
   {
     "id": "linguistics",
     "name": "Major in Linguistics",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2084,7 +2084,7 @@
   {
     "id": "honours_linguistics",
     "name": "Honours in Linguistics",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2095,7 +2095,7 @@
   {
     "id": "romance_studies",
     "name": "Major in Romance Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2106,7 +2106,7 @@
   {
     "id": "honours_romance_studies",
     "name": "Honours in Romance Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2128,7 +2128,7 @@
   {
     "id": "astronomy",
     "name": "Major in Astronomy",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2139,7 +2139,7 @@
   {
     "id": "honours_astronomy",
     "name": "Honours in Astronomy",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2172,7 +2172,7 @@
   {
     "id": "chemistry_vancouver",
     "name": "Major in Chemistry",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2183,7 +2183,7 @@
   {
     "id": "honours_chemistry_vancouver",
     "name": "Honours in Chemistry",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2194,7 +2194,7 @@
   {
     "id": "mathematical_sciences_vancouver",
     "name": "Major in Mathematical Sciences",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2216,7 +2216,7 @@
   {
     "id": "mathematics_vancouver_ba",
     "name": "Major in Mathematics",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2227,7 +2227,7 @@
   {
     "id": "honours_mathematics_vancouver_ba",
     "name": "Honours in Mathematics",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2260,7 +2260,7 @@
   {
     "id": "mathematics_vancouver_bsc",
     "name": "Major in Mathematics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2271,7 +2271,7 @@
   {
     "id": "honours_mathematics_vancouver_bsc",
     "name": "Honours in Mathematics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2304,7 +2304,7 @@
   {
     "id": "physics_vancouver",
     "name": "Major in Physics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2315,7 +2315,7 @@
   {
     "id": "honours_physics_vancouver",
     "name": "Honours in Physics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2348,7 +2348,7 @@
   {
     "id": "statistics_vancouver",
     "name": "Major in Statistics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2359,7 +2359,7 @@
   {
     "id": "honours_statistics_vancouver",
     "name": "Honours in Statistics",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2370,7 +2370,7 @@
   {
     "id": "art_history",
     "name": "Major in Art History",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2381,7 +2381,7 @@
   {
     "id": "honours_art_history",
     "name": "Honours in Art History",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2392,7 +2392,7 @@
   {
     "id": "art_history_visual_culture",
     "name": "Major in Art History and Visual Culture",
-    "faculty": "Faculty of Creative and Critical Studies",
+    "faculty": "Creative and Critical Studies",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2403,7 +2403,7 @@
   {
     "id": "cinema_studies",
     "name": "Major in Cinema Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2414,7 +2414,7 @@
   {
     "id": "honours_cinema_studies",
     "name": "Honours in Cinema Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2425,7 +2425,7 @@
   {
     "id": "creative_writing_okanagan",
     "name": "Major in Creative Writing",
-    "faculty": "Faculty of Creative and Critical Studies",
+    "faculty": "Creative and Critical Studies",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2436,7 +2436,7 @@
   {
     "id": "creative_writing_vancouver",
     "name": "Major in Creative Writing",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Fine Arts",
     "requirements": [],
@@ -2447,7 +2447,7 @@
   {
     "id": "film_production",
     "name": "Major in Film Production",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Fine Arts",
     "requirements": [],
@@ -2458,7 +2458,7 @@
   {
     "id": "journalism",
     "name": "Major in Journalism",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Master of Journalism",
     "requirements": [],
@@ -2469,7 +2469,7 @@
   {
     "id": "media_studies",
     "name": "Major in Media Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Media Studies",
     "requirements": [],
@@ -2480,7 +2480,7 @@
   {
     "id": "media_studies",
     "name": "Major in Media Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Media Studies",
     "requirements": [],
@@ -2491,7 +2491,7 @@
   {
     "id": "music",
     "name": "Major in Music",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2502,7 +2502,7 @@
   {
     "id": "honours_music",
     "name": "Honours in Music",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2557,7 +2557,7 @@
   {
     "id": "theatre_acting",
     "name": "Major in Theatre: Acting",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Fine Arts",
     "requirements": [],
@@ -2568,7 +2568,7 @@
   {
     "id": "theatre_design_production",
     "name": "Major in Theatre: Design and Production",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Fine Arts",
     "requirements": [],
@@ -2579,7 +2579,7 @@
   {
     "id": "visual_art_ba",
     "name": "Major in Visual Art",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2590,7 +2590,7 @@
   {
     "id": "visual_art_bfa",
     "name": "Major in Visual Art",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Fine Arts",
     "requirements": [],
@@ -2601,7 +2601,7 @@
   {
     "id": "honours_visual_art_bfa",
     "name": "Honours in Visual Art",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Fine Arts",
     "requirements": [],
@@ -2612,7 +2612,7 @@
   {
     "id": "visual_arts",
     "name": "Major in Visual Arts",
-    "faculty": "Faculty of Creative and Critical Studies",
+    "faculty": "Creative and Critical Studies",
     "totalCredits": 120,
     "description": "Bachelor of Fine Arts",
     "requirements": [],
@@ -2634,7 +2634,7 @@
   {
     "id": "anthropology_vancouver",
     "name": "Major in Anthropology",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2645,7 +2645,7 @@
   {
     "id": "honours_anthropology_vancouver",
     "name": "Honours in Anthropology",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2656,7 +2656,7 @@
   {
     "id": "cultural_studies",
     "name": "Major in Cultural Studies",
-    "faculty": "Faculty of Creative and Critical Studies",
+    "faculty": "Creative and Critical Studies",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2667,7 +2667,7 @@
   {
     "id": "museum_studies",
     "name": "Major in Museum Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2678,7 +2678,7 @@
   {
     "id": "honours_museum_studies",
     "name": "Honours in Museum Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2700,7 +2700,7 @@
   {
     "id": "philosophy_vancouver",
     "name": "Major in Philosophy",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2711,7 +2711,7 @@
   {
     "id": "honours_philosophy_vancouver",
     "name": "Honours in Philosophy",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2744,7 +2744,7 @@
   {
     "id": "sociology_vancouver",
     "name": "Major in Sociology",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2755,7 +2755,7 @@
   {
     "id": "honours_sociology_vancouver",
     "name": "Honours in Sociology",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2766,7 +2766,7 @@
   {
     "id": "geo_environment_sustainability",
     "name": "Major in Geography: Environment and Sustainability",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2777,7 +2777,7 @@
   {
     "id": "honours_geo_environment_sustainability",
     "name": "Honours in Geography: Environment and Sustainability",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2788,7 +2788,7 @@
   {
     "id": "human_geography",
     "name": "Major in Geography: Human Geography",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2799,7 +2799,7 @@
   {
     "id": "honours_human_geography",
     "name": "Honours in Geography: Human Geography",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2811,8 +2811,8 @@
     "id": "urbanstudies",
     "name": "Major in Urban Studies",
     "faculty": [
-      "Faculty of Applied Science (Engineering)",
-      "Faculty of Arts"
+      "Applied Science (Engineering)",
+      "Arts"
     ],
     "totalCredits": 120,
     "description": "Bachelor of Arts",
@@ -2824,7 +2824,7 @@
   {
     "id": "education_nitep",
     "name": "Major in Education: Indigenous Teacher Education Program",
-    "faculty": "Faculty of Education",
+    "faculty": "Education",
     "totalCredits": 120,
     "description": "Bachelor of Education",
     "requirements": [],
@@ -2835,7 +2835,7 @@
   {
     "id": "education_wktep",
     "name": "Major in Education: West Kootenay Teacher Education Program",
-    "faculty": "Faculty of Education",
+    "faculty": "Education",
     "totalCredits": 120,
     "description": "Bachelor of Education",
     "requirements": [],
@@ -2868,7 +2868,7 @@
   {
     "id": "cellular_anatomical_physiological_sciences",
     "name": "Major in Cellular, Anatomical, and Physiological Sciences",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 120,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2879,7 +2879,7 @@
   {
     "id": "honours_cellular_anatomical_physiological_sciences",
     "name": "Honours in Cellular, Anatomical, and Physiological Sciences",
-    "faculty": "Faculty of Science",
+    "faculty": "Science",
     "totalCredits": 132,
     "description": "Bachelor of Science",
     "requirements": [],
@@ -2890,7 +2890,7 @@
   {
     "id": "food_nutrition_and_health",
     "name": "Major in Food, Nutrition, and Health",
-    "faculty": "Faculty of Land and Food Systems",
+    "faculty": "Land and Food Systems",
     "totalCredits": 120,
     "description": "Bachelor of Science in Food, Nutrition, and Health",
     "requirements": [],
@@ -2901,7 +2901,7 @@
   {
     "id": "psychology_vancouver_ba",
     "name": "Major in Psychology",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2912,7 +2912,7 @@
   {
     "id": "honours_psychology_vancouver_ba",
     "name": "Honours in Psychology",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2923,7 +2923,7 @@
   {
     "id": "spanish_hispanic_studies",
     "name": "Major in Spanish",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2956,7 +2956,7 @@
   {
     "id": "theatre",
     "name": "Major in Theatre Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2967,7 +2967,7 @@
   {
     "id": "honours_theatre",
     "name": "Honours in Theatre Studies",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 132,
     "description": "Bachelor of Arts",
     "requirements": [],
@@ -2978,7 +2978,7 @@
   {
     "id": "gender_race_sexuality_social_justice",
     "name": "Major in Gender, Race, Sexuality, and Social Justice",
-    "faculty": "Faculty of Arts",
+    "faculty": "Arts",
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
