@@ -1,8 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Course } from '@/types';
-import { Search, BookOpen, Plus } from 'lucide-react';
+import { Search, BookOpen, Plus, ChevronDown } from 'lucide-react';
 import { courses } from '@/data/courses';
 
 interface CourseSearcherProps {
@@ -13,6 +13,7 @@ interface CourseSearcherProps {
 
 export default function CourseSearcher({ degree, activeSemesterId, onAddCourse }: CourseSearcherProps) {
   const [searchQuery, setSearchQuery] = useState('');
+  const [displayCount, setDisplayCount] = useState(10);
 
   // Filter courses based on search
   const allFilteredCourses = courses.filter(course => {
@@ -20,8 +21,19 @@ export default function CourseSearcher({ degree, activeSemesterId, onAddCourse }
            course.name.toLowerCase().includes(searchQuery.toLowerCase());
   });
   
-  // Limit to 10 results for display
-  const filteredCourses = allFilteredCourses.slice(0, 10);
+  // Limit to displayCount results for display
+  const filteredCourses = allFilteredCourses.slice(0, displayCount);
+
+  // Reset display count when search query changes
+  useEffect(() => {
+    setDisplayCount(10);
+  }, [searchQuery]);
+
+  const handleLoadMore = () => {
+    setDisplayCount(prev => prev + 10);
+  };
+
+  const hasMore = allFilteredCourses.length > displayCount;
 
   return (
     <div className="h-full flex flex-col">
@@ -108,10 +120,18 @@ export default function CourseSearcher({ degree, activeSemesterId, onAddCourse }
         )}
       </div>
       
-      <div className="mt-4 text-xs text-gray-500 text-center">
-        Showing {filteredCourses.length} of {allFilteredCourses.length} course{allFilteredCourses.length !== 1 ? 's' : ''}
-        {allFilteredCourses.length > 10 && (
-          <span className="block mt-1 text-gray-400">Refine your search to see more results</span>
+      <div className="mt-4 space-y-2">
+        <div className="text-xs text-gray-500 text-center">
+          Showing {filteredCourses.length} of {allFilteredCourses.length} course{allFilteredCourses.length !== 1 ? 's' : ''}
+        </div>
+        {hasMore && (
+          <button
+            onClick={handleLoadMore}
+            className="w-full py-2 px-4 bg-ubc-blue text-white rounded-lg hover:bg-ubc-blue-dark transition-colors shadow-md flex items-center justify-center gap-2 font-medium"
+          >
+            <ChevronDown className="w-4 h-4" />
+            Show More
+          </button>
         )}
       </div>
     </div>
