@@ -2,7 +2,14 @@
   {
     "id": "master_management_dual_degree_okanagan",
     "name": "Major in Bachelor + Master of Management Dual Degree",
-    "faculty": "Faculty of Creative and Critical Studies, Faculty of Management, Irving K. Barber Faculty of Arts and Social Sciences, Irving K. Barber Faculty of Science, School of Engineering, School of Health and Exercise Sciences",
+    "faculty": [
+      "Faculty of Creative and Critical Studies",
+      "Faculty of Management",
+      "Irving K. Barber Faculty of Arts and Social Sciences",
+      "Irving K. Barber Faculty of Science",
+      "School of Engineering",
+      "School of Health and Exercise Sciences"
+    ],
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering), Bachelor of Arts, Bachelor of Commerce, Bachelor of Fine Arts, Bachelor of Health and Exercise Sciences (Kinesiology), Bachelor of Media Studies, Bachelor of Science, Master of Management",
     "requirements": [],
@@ -13,7 +20,15 @@
   {
     "id": "master_management_dual_degree",
     "name": "Major in Bachelor + Master of Management Dual Degree",
-    "faculty": "Faculty of Arts, Faculty of Forestry, Faculty of Land and Food Systems, Faculty of Science, School of Kinesiology, School of Music, UBC Sauder School of Business",
+    "faculty": [
+      "Faculty of Arts",
+      "Faculty of Forestry",
+      "Faculty of Land and Food Systems",
+      "Faculty of Science",
+      "School of Kinesiology",
+      "School of Music",
+      "UBC Sauder School of Business"
+    ],
     "totalCredits": 120,
     "description": "Bachelor of Arts, Bachelor of Fine Arts, Bachelor of Kinesiology, Bachelor of Media Studies, Bachelor of Music, Bachelor of Science, Bachelor of Science in Applied Biology, Bachelor of Science in Food, Nutrition, and Health, Bachelor of Science in Global Resource Systems, Bachelor of Science in Wood Products Processing, Master of Management",
     "requirements": [],
@@ -24,7 +39,15 @@
   {
     "id": "honours_master_management_dual_degree",
     "name": "Honours in Bachelor + Master of Management Dual Degree",
-    "faculty": "Faculty of Arts, Faculty of Forestry, Faculty of Land and Food Systems, Faculty of Science, School of Kinesiology, School of Music, UBC Sauder School of Business",
+    "faculty": [
+      "Faculty of Arts",
+      "Faculty of Forestry",
+      "Faculty of Land and Food Systems",
+      "Faculty of Science",
+      "School of Kinesiology",
+      "School of Music",
+      "UBC Sauder School of Business"
+    ],
     "totalCredits": 132,
     "description": "Bachelor of Arts, Bachelor of Fine Arts, Bachelor of Kinesiology, Bachelor of Media Studies, Bachelor of Music, Bachelor of Science, Bachelor of Science in Applied Biology, Bachelor of Science in Food, Nutrition, and Health, Bachelor of Science in Global Resource Systems, Bachelor of Science in Wood Products Processing, Master of Management",
     "requirements": [],
@@ -79,7 +102,10 @@
   {
     "id": "statistics_combined_majors",
     "name": "Major in Combined Majors in Statistics",
-    "faculty": "Faculty of Arts, Faculty of Science",
+    "faculty": [
+      "Faculty of Arts",
+      "Faculty of Science"
+    ],
     "totalCredits": 120,
     "description": "Bachelor of Arts, Bachelor of Science",
     "requirements": [],
@@ -90,7 +116,10 @@
   {
     "id": "honours_statistics_combined_majors",
     "name": "Honours in Combined Majors in Statistics",
-    "faculty": "Faculty of Arts, Faculty of Science",
+    "faculty": [
+      "Faculty of Arts",
+      "Faculty of Science"
+    ],
     "totalCredits": 132,
     "description": "Bachelor of Arts, Bachelor of Science",
     "requirements": [],
@@ -695,7 +724,11 @@
   {
     "id": "sustainability",
     "name": "Major in Sustainability",
-    "faculty": "Faculty of Creative and Critical Studies, Irving K. Barber Faculty of Arts and Social Sciences, Irving K. Barber Faculty of Science",
+    "faculty": [
+      "Faculty of Creative and Critical Studies",
+      "Irving K. Barber Faculty of Arts and Social Sciences",
+      "Irving K. Barber Faculty of Science"
+    ],
     "totalCredits": 120,
     "description": "Bachelor of Sustainability",
     "requirements": [],
@@ -805,7 +838,10 @@
   {
     "id": "biomedical_engineering",
     "name": "Major in Biomedical Engineering",
-    "faculty": "Faculty of Applied Science (Engineering), Faculty of Medicine",
+    "faculty": [
+      "Faculty of Applied Science (Engineering)",
+      "Faculty of Medicine"
+    ],
     "totalCredits": 120,
     "description": "Bachelor of Applied Science (Engineering)",
     "requirements": [],
@@ -2774,7 +2810,10 @@
   {
     "id": "urbanstudies",
     "name": "Major in Urban Studies",
-    "faculty": "Faculty of Applied Science (Engineering), Faculty of Arts",
+    "faculty": [
+      "Faculty of Applied Science (Engineering)",
+      "Faculty of Arts"
+    ],
     "totalCredits": 120,
     "description": "Bachelor of Arts",
     "requirements": [],
