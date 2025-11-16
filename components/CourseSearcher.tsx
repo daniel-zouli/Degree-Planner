@@ -62,19 +62,19 @@ export default function CourseSearcher({ degree, activeSemesterId, onAddCourse }
                     <div className="flex items-center gap-2 mb-1">
                       <BookOpen className="w-4 h-4 text-ubc-blue" />
                       <span className="font-semibold text-black text-lg">{course.code}</span>
-                      <span className="text-sm text-gray-600">({course.credits} cr)</span>
+                      <span className="text-sm text-gray-600">({course.credits} credit{course.credits !== 1 ? 's' : ''})</span>
                     </div>
                     <div className="text-sm text-black mb-2">{course.name}</div>
                     
-                    {course.prerequisites && course.prerequisites.length > 0 && (
+                    {course.prerequisites && course.prerequisites.courses.length > 0 && (
                       <div className="text-xs text-gray-700 mb-1">
-                        <span className="font-medium">Prerequisites:</span> {course.prerequisites.join(', ')}
+                        <span className="font-medium">Prerequisites:</span> {course.prerequisites.type === 'all' ? 'All of' : 'One of'} {course.prerequisites.courses.join(', ')}
                       </div>
                     )}
                     
-                    {course.corequisites && course.corequisites.length > 0 && (
+                    {course.corequisites && course.corequisites.courses.length > 0 && (
                       <div className="text-xs text-gray-700 mb-1">
-                        <span className="font-medium">Corequisites:</span> {course.corequisites.join(', ')}
+                        <span className="font-medium">Corequisites:</span> {course.corequisites.type === 'all' ? 'All of' : 'One of'} {course.corequisites.courses.join(', ')}
                       </div>
                     )}
                     
@@ -83,23 +83,6 @@ export default function CourseSearcher({ degree, activeSemesterId, onAddCourse }
                         {course.description}
                       </div>
                     )}
-                    
-                    <div className="flex items-center gap-2 mt-2">
-                      {course.category && (
-                        <span className={`text-xs px-2 py-0.5 rounded ${
-                          course.category === 'required'
-                            ? 'bg-red-100 text-red-800'
-                            : 'bg-blue-100 text-blue-800'
-                        }`}>
-                          {course.category}
-                        </span>
-                      )}
-                      {course.yearLevel && (
-                        <span className="text-xs text-gray-600">
-                          Year {course.yearLevel}
-                        </span>
-                      )}
-                    </div>
                   </div>
                   
                   {activeSemesterId ? (

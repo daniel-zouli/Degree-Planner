@@ -1,14 +1,17 @@
+export interface PrerequisiteRequirement {
+  type: 'all' | 'one';
+  courses: string[];
+}
+
 export interface Course {
   id: string;
   code: string;
   name: string;
   credits: number;
   description?: string;
-  prerequisites?: string[];
-  corequisites?: string[];
-  yearLevel?: number;
+  prerequisites?: PrerequisiteRequirement;
+  corequisites?: PrerequisiteRequirement;
   term?: 'fall' | 'winter' | 'summer' | 'any';
-  category?: 'required' | 'elective' | 'breadth';
 }
 
 export interface DegreeRequirement {
