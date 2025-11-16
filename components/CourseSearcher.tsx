@@ -15,14 +15,47 @@ export default function CourseSearcher({ degree, activeSemesterId, onAddCourse }
   const [searchQuery, setSearchQuery] = useState('');
   const [displayCount, setDisplayCount] = useState(10);
 
-  // Filter courses based on search
+  // Extract course level from course code (e.g., "CPSC 110" -> 100, "MATH 200" -> 200)
+  const getCourseLevel = (code: string): number => {
+    const match = code.match(/\s+(\d+)/);
+    if (match) {
+      const courseNumber = parseInt(match[1], 10);
+      // Round down to nearest 100 (110 -> 100, 200 -> 200, 500 -> 500)
+      return Math.floor(courseNumber / 100) * 100;
+    }
+    // If no number found, put it at the end (level 9999)
+    return 9999;
+  };
+  
+  // Filter courses based on search and exclude level 0 courses
   const allFilteredCourses = courses.filter(course => {
+    // Exclude courses that start with level 0 (000, 001, 002, etc.)
+    const courseLevel = getCourseLevel(course.code);
+    if (courseLevel === 0) {
+      return false;
+    }
+    
+    // Filter by search query
     return course.code.toLowerCase().includes(searchQuery.toLowerCase()) ||
            course.name.toLowerCase().includes(searchQuery.toLowerCase());
   });
   
+  // Sort courses by level (100, 200, 300, etc.), then alphabetically by code
+  const sortedCourses = [...allFilteredCourses].sort((a, b) => {
+    const levelA = getCourseLevel(a.code);
+    const levelB = getCourseLevel(b.code);
+    
+    // First sort by level
+    if (levelA !== levelB) {
+      return levelA - levelB;
+    }
+    
+    // If same level, sort alphabetically by course code
+    return a.code.localeCompare(b.code);
+  });
+  
   // Limit to displayCount results for display
-  const filteredCourses = allFilteredCourses.slice(0, displayCount);
+  const filteredCourses = sortedCourses.slice(0, displayCount);
 
   // Reset display count when search query changes
   useEffect(() => {
@@ -33,7 +66,7 @@ export default function CourseSearcher({ degree, activeSemesterId, onAddCourse }
     setDisplayCount(prev => prev + 10);
   };
 
-  const hasMore = allFilteredCourses.length > displayCount;
+  const hasMore = sortedCourses.length > displayCount;
 
   return (
     <div className="h-full flex flex-col">
@@ -122,7 +155,7 @@ export default function CourseSearcher({ degree, activeSemesterId, onAddCourse }
       
       <div className="mt-4 space-y-2">
         <div className="text-xs text-gray-500 text-center">
-          Showing {filteredCourses.length} of {allFilteredCourses.length} course{allFilteredCourses.length !== 1 ? 's' : ''}
+          Showing {filteredCourses.length} of {sortedCourses.length} course{sortedCourses.length !== 1 ? 's' : ''}
         </div>
         {hasMore && (
           <button

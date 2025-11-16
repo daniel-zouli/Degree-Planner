@@ -198,7 +198,7 @@ export default function Home() {
       {/* Header - Full Width */}
       <div className="bg-ubc-blue text-white shadow-lg w-full">
         <div className="container mx-auto px-4 py-6">
-          <h1 className="text-4xl font-bold mb-2">UBC Schedule Creator</h1>
+          <h1 className="text-4xl font-bold mb-2">UBC Degree Planner</h1>
           <p className="text-ubc-gold-light">
             Build your course schedule and track your degree progress
           </p>
