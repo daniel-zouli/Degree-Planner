@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import ScheduleBuilder from '@/components/ScheduleBuilder';
 import CourseSearcher from '@/components/CourseSearcher';
 import ProgressPopup from '@/components/ProgressPopup';
@@ -19,20 +19,124 @@ export default function Home() {
   const [activeSemesterId, setActiveSemesterId] = useState<string | null>(null);
   const [transferCredits, setTransferCredits] = useState<Set<string>>(new Set());
 
+  // Recalculate selectedFaculty whenever selectedFacultyId changes
   const selectedFaculty = selectedFacultyId 
     ? faculties.find(f => f.id === selectedFacultyId)
     : null;
 
+  // Sort programs by type: Majors -> Honours -> Combined Majors -> Combined Honours -> Others
+  const getProgramSortOrder = (name: string): number => {
+    const lowerName = name.toLowerCase();
+    if (lowerName.includes('combined major')) {
+      return 3;
+    } else if (lowerName.includes('combined honours')) {
+      return 4;
+    } else if (lowerName.includes('honours')) {
+      return 2;
+    } else if (lowerName.includes('major') || (!lowerName.includes('minor') && !lowerName.includes('combined'))) {
+      return 1;
+    } else {
+      return 5; // Minors and others
+    }
+  };
+
+  // Filter and sort programs - recalculated whenever selectedFacultyId changes
+  const filteredPrograms = React.useMemo(() => {
+    if (!selectedFaculty || !selectedFacultyId) return [];
+    
+    const programs = selectedFaculty.programs;
+    
+    // First pass: filter out course requirements and generic programs
+    const filtered = programs.filter(program => {
+      const name = program.name.toLowerCase();
+      
+      // Exclude course requirements (course codes, credit requirements, etc.)
+      if (
+        // Course codes like "CPSC 110", "MATH 200"
+        /^[A-Z]{2,6}\s+\d{3}/.test(program.name) ||
+        // "One of X, Y, or Z" patterns (course options)
+        name.startsWith('one of') ||
+        // Credit requirements like "9 Credits of...", "6 Credits of..."
+        /^\d+\s+credits?\s+of/i.test(program.name) ||
+        // "X Credits" at the start
+        /^\d+\s+credits?$/i.test(program.name.trim())
+      ) {
+        return false;
+      }
+      
+      // Exclude generic programs without specific subjects
+      if (
+        program.name === 'Major' ||
+        program.name === 'Honours' ||
+        program.name === 'Combined Major Specializations' ||
+        program.name === 'Combined Honours Specializations' ||
+        program.name === 'Majors Areas of Concentration Required Courses' ||
+        program.name === 'Honours Areas of Concentration Required Courses'
+      ) {
+        return false;
+      }
+      
+      return true;
+    });
+    
+    // Second pass: prefer specific versions over generic ones
+    // For Science: prefer "Major (code): Computer Science" over "Computer Science"
+    // For Arts: prefer "Major in Economics" or numbered versions over just "Economics"
+    const deduplicated = filtered.filter((program, index, self) => {
+      const name = program.name.toLowerCase();
+      
+      // Check for generic program names that might have specific versions
+      const genericNames = ['computer science', 'economics'];
+      if (genericNames.includes(name)) {
+        // Check if there's a more specific version that directly matches the subject
+        // e.g., "Major in Economics" or "Major (code): Computer Science"
+        const hasSpecificVersion = self.some(p => {
+          if (p.id === program.id) return false;
+          const pName = p.name.toLowerCase();
+          // Must be a direct match: "Major in Economics" or "Major (code): Computer Science"
+          // Not just any program containing the word
+          return (pName === `major in ${name}` || 
+                  pName === `honours in ${name}` ||
+                  pName.startsWith(`major (`) && pName.includes(name) ||
+                  pName.startsWith(`honours (`) && pName.includes(name));
+        });
+        // If there's a specific version, exclude the generic one
+        if (hasSpecificVersion) {
+          return false;
+        }
+      }
+      return true;
+    });
+    
+    // Sort the filtered programs
+    return [...deduplicated].sort((a, b) => {
+      const orderA = getProgramSortOrder(a.name);
+      const orderB = getProgramSortOrder(b.name);
+      
+      if (orderA !== orderB) {
+        return orderA - orderB;
+      }
+      
+      // If same type, sort alphabetically by name
+      return a.name.localeCompare(b.name);
+    });
+  }, [selectedFaculty, selectedFacultyId]);
+
   const handleFacultyChange = (facultyId: string) => {
+    // Reset all state when changing faculty
     setSelectedFacultyId(facultyId);
     setSelectedProgram(null);
     setSemesters([]);
     setActiveSemesterId(null);
+    setTransferCredits(new Set());
+    setShowProgressPopup(false);
   };
 
   const handleProgramChange = (programId: string) => {
-    if (!selectedFacultyId) return;
-    const program = selectedFaculty?.programs.find(p => p.id === programId);
+    if (!selectedFacultyId || !selectedFaculty) return;
+    
+    // Always find program from the current faculty's programs (not from filtered list to avoid stale data)
+    const program = selectedFaculty.programs.find(p => p.id === programId);
     setSelectedProgram(program || null);
     setSemesters([]);
     setActiveSemesterId(null);
@@ -131,13 +235,14 @@ export default function Home() {
                 Program
               </label>
               <select
+                key={selectedFacultyId || 'no-faculty'}
                 value={selectedProgram?.id || ''}
                 onChange={(e) => handleProgramChange(e.target.value)}
                 disabled={!selectedFacultyId}
                 className="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-ubc-blue focus:border-ubc-blue text-black bg-white disabled:bg-gray-100 disabled:cursor-not-allowed"
               >
                 <option value="">Select Program</option>
-                {selectedFaculty?.programs.map((program) => (
+                {filteredPrograms.map((program) => (
                   <option key={program.id} value={program.id}>
                     {program.name}
                   </option>

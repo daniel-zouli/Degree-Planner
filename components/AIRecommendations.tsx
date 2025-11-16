@@ -50,96 +50,32 @@ export default function AIRecommendations({
     );
     const remainingCredits = degree.totalCredits - totalScheduledCredits;
 
-    // Check for semesters with more than 5 courses
-    const heavySemesters = fallWinterSemesters.filter(s => s.courses.length > 5);
-    if (heavySemesters.length > 0) {
-      heavySemesters.forEach(semester => {
+    // Check for semesters with less than 4 courses
+    const lightSemesters = fallWinterSemesters.filter(s => s.courses.length > 0 && s.courses.length < 4);
+    if (lightSemesters.length > 0) {
+      lightSemesters.forEach(semester => {
         recommendations.push({
-          type: 'warning',
-          title: `Heavy Course Load in ${semester.term}`,
-          message: `You have ${semester.courses.length} courses scheduled for ${semester.term}. Consider moving some courses to summer sessions to balance your workload and improve your academic performance.`,
-          action: {
-            label: 'Add Summer Semester',
-            onClick: () => {
-              if (onAddSummerSemester) {
-                onAddSummerSemester();
-              }
-            },
-          },
+          type: 'suggestion',
+          title: `Light Course Load in ${semester.term}`,
+          message: `You have only ${semester.courses.length} course(s) scheduled for ${semester.term}. Consider adding more courses to stay on track for a 4-year graduation. Most students take 4-5 courses per semester.`,
         });
       });
     }
 
-    // Check for semesters with exactly 4 courses
-    const fourCourseSemesters = fallWinterSemesters.filter(s => s.courses.length === 4);
-    if (fourCourseSemesters.length > 0 && summerSemesters.length === 0) {
-      const avgCreditsPerSemester = fallWinterSemesters.length > 0 ? totalScheduledCredits / fallWinterSemesters.length : 0;
-      const estimatedSemestersNeeded = avgCreditsPerSemester > 0 ? Math.ceil(remainingCredits / avgCreditsPerSemester) : 0;
+    // Check if on track for 4-year graduation
+    if (fallWinterCount > 0) {
+      const yearsScheduled = Math.ceil(fallWinterCount / 2);
+      const creditsPerYear = yearsScheduled > 0 ? totalScheduledCredits / yearsScheduled : 0;
+      const creditsNeededPerYear = 30; // 120 credits / 4 years = 30 credits per year
       
-      if (remainingCredits > 12) {
-        recommendations.push({
-          type: 'suggestion',
-          title: 'Consider Summer Courses',
-          message: `You're taking 4 courses in ${fourCourseSemesters.map(s => s.term).join(', ')}. With ${remainingCredits} credits remaining, you'll need approximately ${estimatedSemestersNeeded} more fall/winter semesters. Consider adding summer sessions to graduate on time, or plan for an additional year.`,
-          action: {
-            label: 'Add Summer Semester',
-            onClick: () => {
-              if (onAddSummerSemester) {
-                onAddSummerSemester();
-              }
-            },
-          },
-        });
-      } else {
-        recommendations.push({
-          type: 'suggestion',
-          title: 'Consider Summer Courses',
-          message: `You're taking 4 courses in ${fourCourseSemesters.map(s => s.term).join(', ')}. With only ${remainingCredits} credits remaining, you're close to completion. Consider adding a summer session to finish earlier, or you may need to extend your graduation timeline by an additional year.`,
-          action: {
-            label: 'Add Summer Semester',
-            onClick: () => {
-              if (onAddSummerSemester) {
-                onAddSummerSemester();
-              }
-            },
-          },
-        });
-      }
-    }
-
-    // Check total credits and progress
-    if (progress) {
-      if (remainingCredits > 0 && remainingCredits <= 12 && summerSemesters.length === 0) {
-        recommendations.push({
-          type: 'info',
-          title: 'Almost There!',
-          message: `You have ${remainingCredits} credits remaining. Consider adding a summer session to complete your degree requirements on time.`,
-        });
-      }
-
-      // Check if progress is low
-      if (progress.overallProgress < 50 && semesters.length >= 3) {
-        const avgCreditsPerSemester = progress.completedCredits / semesters.length;
-        const remainingSemestersNeeded = Math.ceil((degree.totalCredits - progress.completedCredits) / avgCreditsPerSemester);
-        recommendations.push({
-          type: 'warning',
-          title: 'Progress Alert',
-          message: `You've scheduled ${semesters.length} semesters but only completed ${progress.overallProgress}% of your degree requirements. At your current pace, you'll need approximately ${remainingSemestersNeeded} more semesters. Consider adding more courses per semester or planning summer sessions to stay on track.`,
-        });
-      }
-
-      // Check graduation timeline (inside progress block)
-      if (fallWinterCount > 0 && remainingCredits > 0) {
-        const avgCreditsPerFallWinter = totalScheduledCredits / fallWinterCount;
-        const estimatedYears = Math.ceil(fallWinterCount / 2);
-        const creditsPerYear = avgCreditsPerFallWinter * 2;
-        
-        if (creditsPerYear < 24 && remainingCredits > 0) {
+      if (yearsScheduled <= 4) {
+        if (creditsPerYear < creditsNeededPerYear && remainingCredits > 0) {
+          const creditsShort = (creditsNeededPerYear * yearsScheduled) - totalScheduledCredits;
           recommendations.push({
-            type: 'suggestion',
-            title: 'Graduation Timeline',
-            message: `Based on your current schedule, you're averaging ${Math.round(creditsPerYear)} credits per year. To graduate in ${estimatedYears} years, consider taking ${Math.ceil(remainingCredits / Math.max(1, estimatedYears - Math.floor(fallWinterCount / 2)))} more credits per year, or add summer sessions.`,
-            action: remainingCredits > 12 && summerSemesters.length === 0 ? {
+            type: 'warning',
+            title: '4-Year Graduation Timeline',
+            message: `To graduate in 4 years, you need to average 30 credits per year. Currently, you're averaging ${Math.round(creditsPerYear)} credits per year. You need ${Math.ceil(creditsShort)} more credits to stay on track. Consider adding more courses or summer sessions.`,
+            action: summerSemesters.length === 0 && remainingCredits > 12 ? {
               label: 'Add Summer Semester',
               onClick: () => {
                 if (onAddSummerSemester) {
@@ -148,7 +84,26 @@ export default function AIRecommendations({
               },
             } : undefined,
           });
+        } else if (creditsPerYear >= creditsNeededPerYear && remainingCredits > 0) {
+          recommendations.push({
+            type: 'info',
+            title: 'On Track for 4-Year Graduation',
+            message: `Great! You're averaging ${Math.round(creditsPerYear)} credits per year, which puts you on track to graduate in 4 years. You have ${remainingCredits} credits remaining.`,
+          });
+        } else if (remainingCredits === 0) {
+          recommendations.push({
+            type: 'info',
+            title: 'Degree Requirements Complete',
+            message: `Congratulations! You've scheduled all ${degree.totalCredits} credits needed for your degree. You're on track to graduate in ${yearsScheduled} year(s).`,
+          });
         }
+      } else {
+        // More than 4 years scheduled
+        recommendations.push({
+          type: 'warning',
+          title: 'Extended Graduation Timeline',
+          message: `You've scheduled ${fallWinterCount} fall/winter semesters (${yearsScheduled} years). To graduate in 4 years, you should aim for 8 fall/winter semesters. Consider adding more courses per semester or summer sessions.`,
+        });
       }
     }
 
@@ -162,57 +117,12 @@ export default function AIRecommendations({
       });
     }
 
-    // Check for optimal course distribution
-    if (fallWinterSemesters.length >= 2) {
-      const courseCounts = fallWinterSemesters.map(s => s.courses.length);
-      const minCourses = Math.min(...courseCounts);
-      const maxCourses = Math.max(...courseCounts);
-      const avgCourses = courseCounts.reduce((a, b) => a + b, 0) / courseCounts.length;
-      
-      if (maxCourses - minCourses > 2 && avgCourses < 5) {
-        recommendations.push({
-          type: 'suggestion',
-          title: 'Balance Your Course Load',
-          message: `Your course load varies significantly across semesters (${minCourses}-${maxCourses} courses). Consider redistributing courses more evenly to balance your workload. Aim for 4-5 courses per fall/winter semester for optimal performance.`,
-        });
-      }
-    }
-
-    // Check if on track for 4-year graduation
-    if (fallWinterCount > 0 && remainingCredits > 0) {
-      const yearsScheduled = Math.ceil(fallWinterCount / 2);
-      const creditsPerYear = totalScheduledCredits / yearsScheduled;
-      const yearsNeeded = Math.ceil(degree.totalCredits / creditsPerYear);
-      
-      if (yearsNeeded > 4 && creditsPerYear < 30) {
-        recommendations.push({
-          type: 'warning',
-          title: 'Graduation Timeline',
-          message: `At your current pace of ${Math.round(creditsPerYear)} credits per year, you'll need ${yearsNeeded} years to graduate. To graduate in 4 years, aim for 30+ credits per year or add summer sessions.`,
-          action: summerSemesters.length === 0 ? {
-            label: 'Add Summer Semester',
-            onClick: () => {
-              if (onAddSummerSemester) {
-                onAddSummerSemester();
-              }
-            },
-          } : undefined,
-        });
-      } else if (yearsNeeded <= 4 && creditsPerYear >= 30) {
-        recommendations.push({
-          type: 'info',
-          title: 'On Track for 4-Year Graduation',
-          message: `Great! You're averaging ${Math.round(creditsPerYear)} credits per year, which puts you on track to graduate in ${yearsNeeded} years. Keep up the good planning!`,
-        });
-      }
-    }
-
     // General helpful message if no specific recommendations
     if (recommendations.length === 0) {
       recommendations.push({
         type: 'info',
         title: 'Schedule Looking Good!',
-        message: 'Your schedule appears well-balanced. Continue adding courses to complete your degree requirements. Remember to check prerequisites and course availability.',
+        message: 'Your schedule appears well-balanced for a 4-year graduation plan. Continue adding courses to complete your degree requirements. Remember to check prerequisites and course availability.',
       });
     }
 
