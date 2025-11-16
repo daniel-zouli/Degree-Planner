@@ -205,6 +205,7 @@ export default function Home() {
                 onClose={() => setShowProgressPopup(false)}
                 onTransferCreditToggle={handleTransferCreditToggle}
                 transferCredits={transferCredits}
+                semesters={semesters}
               />
             )}
 

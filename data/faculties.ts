@@ -181,7 +181,7 @@ export const faculties: Faculty[] = [
         type: 'breadth',
         credits: 0,
         courses: [],
-        description: 'Science breadth requirement'
+        description: 'Science breadth requirement - must satisfy at least 6 of 7 categories: Mathematics (all MATH_V courses except MATH_V 302), Chemistry (all CHEM_V courses except CHEM_V 100, CHEM_V 300), Physics (all PHYS_V courses except PHYS_V 100), Life Science (all BIOL_V courses except BIOL_V 140, BIOL_V 300; all BIOC_V, PSYC_V courses numbered 60-89, and MICB_V courses and GEOS_V/GEOB_V 207), Statistics (BIOL_V 300, DSCI_V 100, MATH_V 302, all STAT_V courses), Computer Science (all CPSC_V courses), Earth & Planetary Science (all ASTR_V, ATSC_V, ENVR_V, EOSC_V, GEOS_V/GEOB_V courses except EOSC_V 111 and GEOS_V/GEOB_V 207)'
       },
       {
         id: 'communication-scie113',
@@ -193,7 +193,7 @@ export const faculties: Faculty[] = [
       },
       {
         id: 'additional-communication',
-        name: 'Additional Communication Requirement (Override Assigned)',
+        name: 'Additional Communication Requirement',
         type: 'required',
         credits: 3,
         courses: ['WRDS 150', 'ENGL 110', 'ENGL 111', 'SCIE 300', 'CHEM 300', 'ENVR 200', 'ARTS 001', 'ASTU 100', 'ENGL 100'],

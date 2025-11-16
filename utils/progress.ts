@@ -1,5 +1,98 @@
 import { Degree, DegreeProgress, ScheduledSemester, RequirementProgress, DegreeRequirement } from '@/types';
 
+// Check which Science Breadth categories are satisfied
+function checkScienceBreadthCategories(scheduledCourses: { code: string }[]) {
+  const categories = {
+    mathematics: false,
+    chemistry: false,
+    physics: false,
+    lifeScience: false,
+    statistics: false,
+    computerScience: false,
+    earthPlanetary: false
+  };
+
+  scheduledCourses.forEach(course => {
+    const code = course.code.toUpperCase().trim();
+    // Match course codes like "MATH 100", "MATH_V 100", "MATH100", etc.
+    const match = code.match(/^([A-Z]+)(?:\s*_?V?\s*|\s+)(\d+)/);
+    if (!match) return;
+    
+    const subject = match[1];
+    const courseNum = parseInt(match[2]);
+
+    // Mathematics: All MATH_V courses, except MATH_V 302
+    if (subject === 'MATH' && courseNum !== 302) {
+      categories.mathematics = true;
+    }
+
+    // Chemistry: All CHEM_V courses, except CHEM_V 100, CHEM_V 300
+    if (subject === 'CHEM' && courseNum !== 100 && courseNum !== 300) {
+      categories.chemistry = true;
+    }
+
+    // Physics: All PHYS_V courses, except PHYS_V 100
+    if (subject === 'PHYS' && courseNum !== 100) {
+      categories.physics = true;
+    }
+
+    // Life Science: All BIOL_V courses except BIOL_V 140, BIOL_V 300; all BIOC_V, PSYC_V (60-89), MICB_V courses and GEOS_V/GEOB_V 207
+    if (subject === 'BIOL' && courseNum !== 140 && courseNum !== 300) {
+      categories.lifeScience = true;
+    }
+    if (subject === 'BIOC') {
+      categories.lifeScience = true;
+    }
+    if (subject === 'PSYC' && courseNum >= 60 && courseNum <= 89) {
+      categories.lifeScience = true;
+    }
+    if (subject === 'MICB') {
+      categories.lifeScience = true;
+    }
+    if ((subject === 'GEOS' || subject === 'GEOB') && courseNum === 207) {
+      categories.lifeScience = true;
+    }
+
+    // Statistics: BIOL_V 300, DSCI_V 100, MATH_V 302, all STAT_V courses
+    if (subject === 'BIOL' && courseNum === 300) {
+      categories.statistics = true;
+    }
+    if (subject === 'DSCI' && courseNum === 100) {
+      categories.statistics = true;
+    }
+    if (subject === 'MATH' && courseNum === 302) {
+      categories.statistics = true;
+    }
+    if (subject === 'STAT') {
+      categories.statistics = true;
+    }
+
+    // Computer Science: All CPSC_V courses
+    if (subject === 'CPSC') {
+      categories.computerScience = true;
+    }
+
+    // Earth & Planetary Science: All ASTR_V, ATSC_V, ENVR_V, EOSC_V, GEOS_V/GEOB_V courses except EOSC_V 111 and GEOS_V/GEOB_V 207
+    if (subject === 'ASTR') {
+      categories.earthPlanetary = true;
+    }
+    if (subject === 'ATSC') {
+      categories.earthPlanetary = true;
+    }
+    if (subject === 'ENVR') {
+      categories.earthPlanetary = true;
+    }
+    if (subject === 'EOSC' && courseNum !== 111) {
+      categories.earthPlanetary = true;
+    }
+    if ((subject === 'GEOS' || subject === 'GEOB') && courseNum !== 207) {
+      categories.earthPlanetary = true;
+    }
+  });
+
+  return categories;
+}
+
 function isSingleCourseRequirement(requirement: DegreeRequirement): boolean {
   // If it has specific courses listed, it's a single course requirement (even if credits = 0)
   // This includes requirements like Laboratory Science, Foundational Requirements
@@ -112,20 +205,31 @@ function calculateCreditRequirementProgress(
       completedCredits = scheduledCourses
         .filter(course => course.faculty === 'Arts')
         .reduce((sum, course) => sum + course.credits, 0);
-    } else if (name.includes('science breadth')) {
-      // Science breadth requirement - typically Science courses
-      completedCredits = scheduledCourses
-        .filter(course => course.faculty === 'Science')
-        .reduce((sum, course) => sum + course.credits, 0);
+    } else if (name.includes('science breadth') || requirement.id === 'science-breadth') {
+      // Science breadth requirement - check categories
+      const categories = checkScienceBreadthCategories(scheduledCourses);
+      const satisfiedCount = Object.values(categories).filter(Boolean).length;
+      // For display purposes, use satisfied count as "credits"
+      completedCredits = satisfiedCount;
     } else {
       // Default: count all credits if we can't determine the requirement type
       completedCredits = scheduledCourses.reduce((sum, course) => sum + course.credits, 0);
     }
   }
   
-  const isCompleted = requirement.credits > 0 
-    ? completedCredits >= requirement.credits 
-    : false;
+  let isCompleted = false;
+  
+  // Special handling for Science Breadth Requirement
+  if (requirement.id === 'science-breadth' || (name.includes('science breadth') && requirement.credits === 0)) {
+    const categories = checkScienceBreadthCategories(scheduledCourses);
+    // Note: transferCredits check for category-level credits is handled in calculateProgress
+    const satisfiedCount = Object.values(categories).filter(Boolean).length;
+    isCompleted = satisfiedCount >= 6;
+  } else {
+    isCompleted = requirement.credits > 0 
+      ? completedCredits >= requirement.credits 
+      : false;
+  }
   
   return { completedCredits, isCompleted };
 }
@@ -181,15 +285,32 @@ export function calculateProgress(
         isSingleCourse: true
       };
     } else {
+      const hasTransferCredit = transferCredits?.has(requirement.id) || false;
       const { completedCredits: reqCredits, isCompleted } = calculateCreditRequirementProgress(
         requirement,
         scheduledCourses
       );
+      
+      // For Science Breadth, check category-level transfer credits
+      let finalIsCompleted = isCompleted;
+      if (requirement.id === 'science-breadth') {
+        const categoryKeys = ['mathematics', 'chemistry', 'physics', 'lifeScience', 'statistics', 'computerScience', 'earthPlanetary'];
+        const categories = checkScienceBreadthCategories(scheduledCourses);
+        // Count categories satisfied by courses or transfer credit
+        const satisfiedCategories = categoryKeys.filter(key => {
+          const categoryKey = key as keyof typeof categories;
+          return categories[categoryKey] || transferCredits?.has(`science-breadth-${key}`);
+        });
+        finalIsCompleted = satisfiedCategories.length >= 6;
+      } else if (hasTransferCredit) {
+        finalIsCompleted = true;
+      }
+      
       return {
         requirementId: requirement.id,
         requirementName: requirement.name,
         requirementType: requirement.type,
-        isCompleted,
+        isCompleted: finalIsCompleted,
         completedCredits: reqCredits,
         requiredCredits: requirement.credits,
         isSingleCourse: false
