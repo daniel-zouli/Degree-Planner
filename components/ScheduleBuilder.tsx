@@ -63,7 +63,8 @@ export default function ScheduleBuilder({
   };
 
   const sortedSemesters = [...semesters].sort((a, b) => {
-    if (a.year !== b.year) return a.year - b.year;
+    // Sort by year descending (latest first), then by term type
+    if (a.year !== b.year) return b.year - a.year;
     const order = { fall: 0, winter: 1, summer: 2 };
     return order[a.termType] - order[b.termType];
   });
@@ -102,7 +103,6 @@ export default function ScheduleBuilder({
                 onChange={(e) => setNewSemesterType(e.target.value as 'fall' | 'winter' | 'summer')}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ubc-blue focus:border-ubc-blue text-black bg-white"
               >
-                <option value="fall">Fall (F)</option>
                 <option value="winter">Winter (W)</option>
                 <option value="summer">Summer (S)</option>
               </select>
@@ -111,14 +111,14 @@ export default function ScheduleBuilder({
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 Session
               </label>
-              <input
-                type="number"
+              <select
                 value={newSemesterSession}
-                onChange={(e) => setNewSemesterSession(parseInt(e.target.value) || 1)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ubc-blue focus:border-ubc-blue text-black"
-                min="1"
-                max="2"
-              />
+                onChange={(e) => setNewSemesterSession(parseInt(e.target.value))}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ubc-blue focus:border-ubc-blue text-black bg-white"
+              >
+                <option value={1}>1</option>
+                <option value={2}>2</option>
+              </select>
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
