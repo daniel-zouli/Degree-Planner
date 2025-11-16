@@ -4,6 +4,7 @@ import { useState } from 'react';
 import ScheduleBuilder from '@/components/ScheduleBuilder';
 import CourseSearcher from '@/components/CourseSearcher';
 import ProgressPopup from '@/components/ProgressPopup';
+import AIRecommendations from '@/components/AIRecommendations';
 import { Degree, ScheduledSemester, Course } from '@/types';
 import { calculateProgress } from '@/utils/progress';
 import { getCombinedDegree } from '@/utils/requirements';
@@ -64,6 +65,19 @@ export default function Home() {
       }
       return newSet;
     });
+  };
+
+  const handleAddSummerSemester = () => {
+    const currentYear = new Date().getFullYear();
+    const newSemester: ScheduledSemester = {
+      id: `sem-${Date.now()}`,
+      term: `S1 ${currentYear}`,
+      year: currentYear,
+      termType: 'summer',
+      courses: [],
+    };
+    setSemesters([newSemester, ...semesters]);
+    setActiveSemesterId(newSemester.id);
   };
 
   // Combine faculty and program requirements
@@ -193,6 +207,14 @@ export default function Home() {
                 transferCredits={transferCredits}
               />
             )}
+
+            {/* AI Recommendations */}
+            <AIRecommendations
+              semesters={semesters}
+              degree={combinedProgram}
+              progress={progress}
+              onAddSummerSemester={handleAddSummerSemester}
+            />
           </>
         )}
 
