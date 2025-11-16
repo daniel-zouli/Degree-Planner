@@ -15,10 +15,13 @@ export default function CourseSearcher({ degree, activeSemesterId, onAddCourse }
   const [searchQuery, setSearchQuery] = useState('');
 
   // Filter courses based on search
-  const filteredCourses = courses.filter(course => {
+  const allFilteredCourses = courses.filter(course => {
     return course.code.toLowerCase().includes(searchQuery.toLowerCase()) ||
            course.name.toLowerCase().includes(searchQuery.toLowerCase());
   });
+  
+  // Limit to 10 results for display
+  const filteredCourses = allFilteredCourses.slice(0, 10);
 
   return (
     <div className="h-full flex flex-col">
@@ -106,7 +109,10 @@ export default function CourseSearcher({ degree, activeSemesterId, onAddCourse }
       </div>
       
       <div className="mt-4 text-xs text-gray-500 text-center">
-        Showing {filteredCourses.length} course{filteredCourses.length !== 1 ? 's' : ''}
+        Showing {filteredCourses.length} of {allFilteredCourses.length} course{allFilteredCourses.length !== 1 ? 's' : ''}
+        {allFilteredCourses.length > 10 && (
+          <span className="block mt-1 text-gray-400">Refine your search to see more results</span>
+        )}
       </div>
     </div>
   );
