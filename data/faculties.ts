@@ -17,7 +17,7 @@ export const faculties: Faculty[] = [
     name: 'Arts',
     programs: [
       {
-        id: 'econ',
+        id: 'economics',
         name: 'Economics',
         faculty: 'Arts',
         totalCredits: 120,
