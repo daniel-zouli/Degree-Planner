@@ -14,7 +14,7 @@ export const faculties: Faculty[] = [
     programs: [
       {
         id: 'computer-science',
-        name: 'Computer Science',
+        name: 'Major (0376): Computer Science',
         faculty: 'Science',
         totalCredits: 120,
         description: 'Bachelor of Science',
@@ -203,7 +203,128 @@ export const faculties: Faculty[] = [
         faculty: 'Science',
         totalCredits: 120,
         description: 'Bachelor of Science',
-        requirements: []
+        requirements: [
+          {
+            id: 'cpsc-110',
+            name: 'CPSC 110 (or 103 and 107)',
+            type: 'required',
+            credits: 4,
+            courses: ['CPSC 110', 'CPSC 103', 'CPSC 107'],
+            description: 'CPSC 110 or both CPSC 103 and CPSC 107'
+          },
+          {
+            id: 'cpsc-121',
+            name: 'CPSC 121',
+            type: 'required',
+            credits: 4,
+            courses: ['CPSC 121'],
+            description: 'Models of Computation'
+          },
+          {
+            id: 'math-100-level',
+            name: 'One of MATH 100, 102, 104, 110, 120, 180, or 184',
+            type: 'required',
+            credits: 3,
+            courses: ['MATH 100', 'MATH 102', 'MATH 104', 'MATH 110', 'MATH 120', 'MATH 180', 'MATH 184'],
+            description: 'First year calculus'
+          },
+          {
+            id: 'math-101-level',
+            name: 'One of MATH 101, 103, 105, or 121',
+            type: 'required',
+            credits: 3,
+            courses: ['MATH 101', 'MATH 103', 'MATH 105', 'MATH 121'],
+            description: 'First year calculus continuation'
+          },
+          {
+            id: 'cpsc-210',
+            name: 'CPSC 210',
+            type: 'required',
+            credits: 4,
+            courses: ['CPSC 210'],
+            description: 'Software Construction'
+          },
+          {
+            id: 'cpsc-213',
+            name: 'CPSC 213',
+            type: 'required',
+            credits: 4,
+            courses: ['CPSC 213'],
+            description: 'Introduction to Computer Systems'
+          },
+          {
+            id: 'cpsc-221',
+            name: 'CPSC 221',
+            type: 'required',
+            credits: 4,
+            courses: ['CPSC 221'],
+            description: 'Basic Algorithms and Data Structures'
+          },
+          {
+            id: 'math-200',
+            name: 'MATH 200',
+            type: 'required',
+            credits: 3,
+            courses: ['MATH 200'],
+            description: 'Calculus III'
+          },
+          {
+            id: 'math-221',
+            name: 'MATH 221',
+            type: 'required',
+            credits: 3,
+            courses: ['MATH 221'],
+            description: 'Matrix Algebra'
+          },
+          {
+            id: 'stat-241-251',
+            name: 'STAT 241 or 251 (or STAT 200 or 201 and MATH/STAT 302)',
+            type: 'required',
+            credits: 3,
+            courses: ['STAT 241', 'STAT 251', 'STAT 200', 'STAT 201', 'MATH 302', 'STAT 302'],
+            description: 'Statistics requirement'
+          },
+          {
+            id: 'cpsc-310',
+            name: 'CPSC 310',
+            type: 'required',
+            credits: 4,
+            courses: ['CPSC 310'],
+            description: 'Introduction to Software Engineering'
+          },
+          {
+            id: 'cpsc-320',
+            name: 'CPSC 320',
+            type: 'required',
+            credits: 3,
+            courses: ['CPSC 320'],
+            description: 'Intermediate Algorithm Design and Analysis'
+          },
+          {
+            id: 'cpsc-300-level',
+            name: '9 Credits of CPSC Courses Numbered 300 or Higher',
+            type: 'required',
+            credits: 9,
+            courses: [],
+            description: '9 credits from CPSC courses at 300-level or higher'
+          },
+          {
+            id: 'cpsc-400-level',
+            name: '6 Credits of 400 Level CPSC Courses',
+            type: 'required',
+            credits: 6,
+            courses: [],
+            description: '6 credits from CPSC courses at 400-level'
+          },
+          {
+            id: 'cpsc-400-lecture',
+            name: '3 Credits of 400 Level CPSC Lecture Based Courses',
+            type: 'required',
+            credits: 3,
+            courses: [],
+            description: '3 credits from 400-level CPSC lecture-based courses'
+          }
+        ]
       },
       {
         id: 'major_0409_chemistry_chem',
