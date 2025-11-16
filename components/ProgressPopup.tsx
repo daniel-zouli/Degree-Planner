@@ -1,16 +1,31 @@
 'use client';
 
 import { DegreeProgress } from '@/types';
-import { X } from 'lucide-react';
+import { X, Check, XCircle } from 'lucide-react';
 
 interface ProgressPopupProps {
   progress: DegreeProgress;
   isOpen: boolean;
   onClose: () => void;
+  onTransferCreditToggle?: (requirementId: string, hasTransferCredit: boolean) => void;
+  transferCredits?: Set<string>;
 }
 
-export default function ProgressPopup({ progress, isOpen, onClose }: ProgressPopupProps) {
+export default function ProgressPopup({ 
+  progress, 
+  isOpen, 
+  onClose, 
+  onTransferCreditToggle,
+  transferCredits = new Set()
+}: ProgressPopupProps) {
   if (!isOpen) return null;
+
+  const isTransferCreditEligible = (requirementId: string) => {
+    return requirementId === 'laboratory-science' || 
+           requirementId === 'foundational-biology' || 
+           requirementId === 'foundational-chemistry' || 
+           requirementId === 'foundational-physics';
+  };
 
   return (
     <>
@@ -53,6 +68,84 @@ export default function ProgressPopup({ progress, isOpen, onClose }: ProgressPop
               <span className="font-semibold text-gray-900">{progress.completedCredits}</span> / {progress.totalCredits} credits completed
             </div>
           </div>
+
+          {/* Requirements List */}
+          {progress.requirements && progress.requirements.length > 0 && (
+            <div className="mt-8">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Requirements</h3>
+              <div className="space-y-4">
+                {progress.requirements.map((req) => {
+                  const hasTransferCredit = transferCredits.has(req.requirementId);
+                  const isCompleted = req.isCompleted || hasTransferCredit;
+                  const showTransferCheckbox = isTransferCreditEligible(req.requirementId);
+                  
+                  return (
+                    <div key={req.requirementId} className="border border-gray-200 rounded-lg p-4">
+                      {req.isSingleCourse ? (
+                        // Single course requirement - show checkbox
+                        <div className="flex items-center gap-3">
+                          {isCompleted ? (
+                            <Check className="w-5 h-5 text-green-600 flex-shrink-0" />
+                          ) : (
+                            <XCircle className="w-5 h-5 text-gray-400 flex-shrink-0" />
+                          )}
+                          <div className="flex-1">
+                            <div className={`font-medium ${isCompleted ? 'text-green-700' : 'text-gray-900'}`}>
+                              {req.requirementName}
+                            </div>
+                            {req.requiredCredits > 0 && (
+                              <div className="text-sm text-gray-600">
+                                {req.requiredCredits} credit{req.requiredCredits !== 1 ? 's' : ''}
+                              </div>
+                            )}
+                          </div>
+                          {showTransferCheckbox && onTransferCreditToggle && (
+                            <div className="flex items-center gap-2">
+                              <label className="text-xs text-gray-600">Transfer Credit:</label>
+                              <input
+                                type="checkbox"
+                                checked={hasTransferCredit}
+                                onChange={(e) => onTransferCreditToggle(req.requirementId, e.target.checked)}
+                                className="w-4 h-4 text-ubc-blue border-gray-300 rounded focus:ring-ubc-blue"
+                              />
+                            </div>
+                          )}
+                        </div>
+                      ) : (
+                      // Credit-based requirement - show progress bar
+                      <div>
+                        <div className="flex items-center justify-between mb-2">
+                          <div className="font-medium text-gray-900">{req.requirementName}</div>
+                          {req.requiredCredits > 0 && (
+                            <div className="text-sm text-gray-600">
+                              {req.completedCredits} / {req.requiredCredits} credits
+                            </div>
+                          )}
+                        </div>
+                        {req.requiredCredits > 0 ? (
+                          <div className="w-full bg-gray-200 rounded-full h-2">
+                            <div
+                              className={`h-2 rounded-full transition-all duration-300 ${
+                                req.isCompleted ? 'bg-green-600' : 'bg-ubc-blue'
+                              }`}
+                              style={{ 
+                                width: `${Math.min(100, (req.completedCredits / req.requiredCredits) * 100)}%` 
+                              }}
+                            />
+                          </div>
+                        ) : (
+                          <div className="text-sm text-gray-500 italic">
+                            {req.isCompleted ? '✓ Completed' : 'Not completed'}
+                          </div>
+                        )}
+                      </div>
+                    )}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </>

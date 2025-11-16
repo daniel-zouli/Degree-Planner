@@ -6,6 +6,7 @@ import CourseSearcher from '@/components/CourseSearcher';
 import ProgressPopup from '@/components/ProgressPopup';
 import { Degree, ScheduledSemester, Course } from '@/types';
 import { calculateProgress } from '@/utils/progress';
+import { getCombinedDegree } from '@/utils/requirements';
 import { faculties } from '@/data/faculties';
 import { BarChart3 } from 'lucide-react';
 
@@ -15,6 +16,7 @@ export default function Home() {
   const [semesters, setSemesters] = useState<ScheduledSemester[]>([]);
   const [showProgressPopup, setShowProgressPopup] = useState(false);
   const [activeSemesterId, setActiveSemesterId] = useState<string | null>(null);
+  const [transferCredits, setTransferCredits] = useState<Set<string>>(new Set());
 
   const selectedFaculty = selectedFacultyId 
     ? faculties.find(f => f.id === selectedFacultyId)
@@ -52,8 +54,25 @@ export default function Home() {
     setSemesters(updatedSemesters);
   };
 
-  const progress = selectedProgram
-    ? calculateProgress(selectedProgram, semesters)
+  const handleTransferCreditToggle = (requirementId: string, hasTransferCredit: boolean) => {
+    setTransferCredits(prev => {
+      const newSet = new Set(prev);
+      if (hasTransferCredit) {
+        newSet.add(requirementId);
+      } else {
+        newSet.delete(requirementId);
+      }
+      return newSet;
+    });
+  };
+
+  // Combine faculty and program requirements
+  const combinedProgram = selectedProgram && selectedFaculty
+    ? getCombinedDegree(selectedFaculty, selectedProgram)
+    : null;
+
+  const progress = combinedProgram
+    ? calculateProgress(combinedProgram, semesters, transferCredits)
     : null;
 
   return (
@@ -123,10 +142,10 @@ export default function Home() {
         </div>
 
         {/* Divider */}
-        {selectedProgram && <div className="border-t border-gray-500 my-8"></div>}
+        {combinedProgram && <div className="border-t border-gray-500 my-8"></div>}
 
         {/* Main Content */}
-        {selectedProgram && (
+        {combinedProgram && (
           <>
             {/* Action Bar */}
             <div className="mb-6 flex justify-end">
@@ -148,7 +167,7 @@ export default function Home() {
                 <ScheduleBuilder
                   semesters={semesters}
                   onSemestersChange={setSemesters}
-                  degree={selectedProgram}
+                  degree={combinedProgram}
                   activeSemesterId={activeSemesterId}
                   onActiveSemesterChange={setActiveSemesterId}
                 />
@@ -157,7 +176,7 @@ export default function Home() {
               {/* Right: Course Searcher */}
               <div className="bg-white rounded-lg shadow-md p-6">
                 <CourseSearcher
-                  degree={selectedProgram}
+                  degree={combinedProgram}
                   activeSemesterId={activeSemesterId}
                   onAddCourse={handleAddCourse}
                 />
@@ -170,12 +189,14 @@ export default function Home() {
                 progress={progress}
                 isOpen={showProgressPopup}
                 onClose={() => setShowProgressPopup(false)}
+                onTransferCreditToggle={handleTransferCreditToggle}
+                transferCredits={transferCredits}
               />
             )}
           </>
         )}
 
-        {!selectedProgram && (
+        {!combinedProgram && (
           <div className="text-center py-12">
             <p className="text-gray-600 text-lg">
               Please select a faculty and program above to start building your schedule

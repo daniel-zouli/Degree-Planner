@@ -12,6 +12,7 @@ export interface Course {
   prerequisites?: PrerequisiteRequirement;
   corequisites?: PrerequisiteRequirement;
   term?: 'fall' | 'winter' | 'summer' | 'any';
+  faculty?: string;
 }
 
 export interface DegreeRequirement {
@@ -40,8 +41,19 @@ export interface ScheduledSemester {
   courses: Course[];
 }
 
+export interface RequirementProgress {
+  requirementId: string;
+  requirementName: string;
+  requirementType: 'required' | 'elective' | 'breadth';
+  isCompleted: boolean;
+  completedCredits: number;
+  requiredCredits: number;
+  isSingleCourse: boolean; // true if it's a single course requirement, false if it's a credit-based requirement
+}
+
 export interface DegreeProgress {
   totalCredits: number;
   completedCredits: number;
   overallProgress: number;
+  requirements: RequirementProgress[];
 }
